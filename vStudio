@@ -6,6 +6,9 @@ sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 
+# Command to make scroll lock work (if you need it to)
+xmodmap -e 'add mod3 = Scroll_Lock'
+
 # Fav apps for verbists
 sudo apt-get install rar unrar zip vim guake guake-indicator kate dolphin filezilla thunderbird vlc clementine amarok docky chromium-browser calligraauthor scribus skype nautilus-dropbox
 
