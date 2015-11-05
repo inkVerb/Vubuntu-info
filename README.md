@@ -1,4 +1,4 @@
-# verbuntu
+# vubuntu
 Settings, installs, and files for _ubuntu
 These are scripts and copyable commands that may be useful for verbists and ubuntu power users.
 
