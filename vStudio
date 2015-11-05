@@ -1,0 +1,51 @@
+# Native Asian keyboard switcher, fcitx (and the others lang supp asks to add)
+## After install, must add the languages you want in regional/language settings
+sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
+
+# Add Skype's repo
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update
+
+# Fav apps for verbists
+sudo apt-get install rar unrar zip vim guake guake-indicator kate dolphin filezilla thunderbird vlc clementine amarok docky chromium-browser calligraauthor scribus skype nautilus-dropbox
+
+# Add ubuntu studio to kubuntu/xubuntu/ubuntu:
+## Don't use the Ubuntu Studio Meta Installer
+## Normally, choose "No" for jackd realtime control, must accept EULA during install
+sudo apt-get install -y ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu
+
+ubuntustudio-desktop
+kubuntu-restricted-extras
+xubuntu-restricted-extras
+ubuntu-restricted-extras
+# ...Optionally Choose
+
+#flash plugins: (may be redundant from others)
+sudo apt-get install flashplugin-installer
+
+# Really Slick Screensavers (No support in KDE 5)
+sudo apt-get install xscreensaver
+sudo apt-get install rss-glx
+## Normally to finish, you must run all these as NOT root...
+killall xscreensaver
+/usr/bin/rss-glx_install
+xscreensaver -nosplash &
+## If problems, check instructions in this file:
+>> /usr/share/doc/rss-glx/README.xscreensaver
+
+# To install extra fonts
+## put them in the .fonts folder of home directory
+## refresh fonts:
+fc-cache -f -v
+
+# Spotify
+## instructions to see if this is current: https://www.spotify.com/tw/download/linux/
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D2C19886
+sudo echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+
+# evernote support - everpad
+sudo add-apt-repository ppa:nvbn-rm/ppa
+sudo apt-get update
+sudo apt-get install everpad
