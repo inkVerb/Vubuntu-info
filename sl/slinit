@@ -3,3 +3,15 @@ xmodmap -e 'add mod3 = Scroll_Lock'
 
 
 # See slinit.README for instructions
+
+# The following avoids an error message "insserv: warning: ...missing LSB tags and overrides"
+
+### BEGIN INIT INFO
+# Provides:          Scroll_Lock
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     
+# Default-Stop:      
+# Short-Description: Scroll Lock Init
+# Description:       Initiates scroll lock ability before login
+### END INIT INFO
