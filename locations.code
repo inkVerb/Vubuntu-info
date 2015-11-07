@@ -1,0 +1,7 @@
+# Locations of files in _ubuntu
+
+## xubuntu wallpapers, use ln files
+/usr/share/xfce4/backdrops/
+
+## ubuntu studio wallpapers, linked to backdrop folder
+/usr/share/backgrounds/ubuntustudio/
