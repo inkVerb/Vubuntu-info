@@ -6,11 +6,8 @@ sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 
-# Command to make scroll lock work (if you need it to)
-xmodmap -e 'add mod3 = Scroll_Lock'
-
 # Fav apps for verbists
-sudo apt-get install rar unrar zip vim guake guake-indicator kate dolphin filezilla thunderbird vlc clementine amarok docky chromium-browser calligraauthor scribus skype nautilus-dropbox
+sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser midori calligraauthor scribus skype nautilus-dropbox
 
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
@@ -52,3 +49,6 @@ sudo apt-get install spotify-client
 sudo add-apt-repository ppa:nvbn-rm/ppa
 sudo apt-get update
 sudo apt-get install everpad
+
+# Command to make scroll lock work (if you need it to)
+xmodmap -e 'add mod3 = Scroll_Lock'
