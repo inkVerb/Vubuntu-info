@@ -7,7 +7,7 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 sudo apt-get update
 
 # Fav apps for verbists
-sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser midori calligraauthor scribus skype nautilus-dropbox
+sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium skype nautilus-dropbox
 
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
