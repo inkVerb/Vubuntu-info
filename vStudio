@@ -52,3 +52,7 @@ sudo apt-get install everpad
 
 # Command to make scroll lock work (if you need it to)
 xmodmap -e 'add mod3 = Scroll_Lock'
+
+# To update to a new distro (use carefully, probably only on servers and preexisting minimal installations)
+aptitude install update-manager-core
+do-release-upgrade
