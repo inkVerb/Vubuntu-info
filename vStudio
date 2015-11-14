@@ -1,3 +1,10 @@
+# Root password
+sudo passwd
+
+# Basic updates
+sudo apt-get update
+sudo apt-get upgrade
+
 # Native Asian keyboard switcher, fcitx (and the others lang supp asks to add)
 ## After install, must add the languages you want in regional/language settings
 sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
@@ -12,11 +19,10 @@ sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vl
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
 ## Normally, choose "No" for jackd realtime control, must accept EULA during install
-sudo apt-get install -y ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu
+sudo apt-get install -y ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu ubuntustudio-desktop
 
-ubuntustudio-desktop
-kubuntu-restricted-extras
 xubuntu-restricted-extras
+kubuntu-restricted-extras
 ubuntu-restricted-extras
 # ...Optionally Choose
 
@@ -54,5 +60,5 @@ sudo apt-get install everpad
 xmodmap -e 'add mod3 = Scroll_Lock'
 
 # To update to a new distro (use carefully, probably only on servers and preexisting minimal installations)
-aptitude install update-manager-core
+apt-get install update-manager-core
 do-release-upgrade
