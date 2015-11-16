@@ -9,11 +9,10 @@ sudo apt-get upgrade
 ## After install, must add the languages you want in regional/language settings
 sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
 
-# Add Skype's repo
-sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-sudo apt-get update
+# Fav apps for verbists (cool, artistic people who email)
+sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium nautilus-dropbox
 
-# Fav apps for verbists
+# Fav apps for verbists who are also web developers (redundant from above, don't use if you don't need FileZilla)
 sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium skype nautilus-dropbox
 
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
@@ -24,12 +23,17 @@ sudo apt-get install -y ubuntustudio-audio ubuntustudio-audio-plugins ubuntustud
 xubuntu-restricted-extras
 kubuntu-restricted-extras
 ubuntu-restricted-extras
-# ...Optionally Choose
+# ...Optionally Choose based on your distro, just add it to the long line above
+
+# Add Skype's repo and install it (if you want)
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update
+sudo apt-get install skype
 
 #flash plugins: (may be redundant from others)
 sudo apt-get install flashplugin-installer
 
-# Really Slick Screensavers (No support in KDE 5)
+# Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
 sudo apt-get install rss-glx
 ## Normally to finish, you must run all these as NOT root...
