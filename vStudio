@@ -18,7 +18,7 @@ sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vl
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
 ## Normally, choose "No" for jackd realtime control, must accept EULA during install
-sudo apt-get install -y ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu ubuntustudio-desktop
+sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu ubuntustudio-desktop
 
 xubuntu-restricted-extras
 kubuntu-restricted-extras
