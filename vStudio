@@ -9,7 +9,7 @@ sudo apt-get upgrade
 sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium nautilus-dropbox
 
 # Fav apps for verbists who are also web developers (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium skype nautilus-dropbox
+sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus stellarium skype nautilus-dropbox
 
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
