@@ -1,0 +1,66 @@
+download:
+unetbootin
+http://unetbootin.github.io/
+
+kubuntu
+http://www.kubuntu.org/
+
+xubuntu
+http://xubuntu.org/
+
+Partition in Windows
+Right click on My Computer > Manage > Partition Manager
+Free-up black, unused space. No more than two primary partitions on older machines or you may need help.
+*If you have Windows with a C and D drive on a laptop, you poor fool. You only need a C if you only have one disk.
+**You should only see blue and black colors, primary partitions and free space.
+***If you see other colors around D, such as green, you may need to back up D, then delete it, then resize C. (If you install to D:/Program Files on a laptop, you poor fool. That's only for desktops with two separate disks. You may need to reinstall several apps to C:/Program Files
+Right click on a partition, probably D, and shrink the volume. 100000MB or 50000MB is probably good (100GB-50GB)
+If D is about that big and/or has nothing on it, you can delete it rather than shrink it. But, backup or copy what is on it first, dah.
+
+Use unetbootin to install your custom _ubuntu----.iso file to your USB (USB 3 doesn't like many 2012-2014 computers, sorry, use USB 2)
+
+Find out how to boot to a USB with your computer. If you don't know how, search your computer model and "how to boot USB".
+Acer requires you to "Enable F12 Boot Menu" in BIOS, so you press F12 when booting.
+Others can boot to USB by changing boot priority in BIOS. Each is different.
+
+Boot to the USB you created.
+
+Plug in an Ethernet cable (or 'try _ubuntu' and get your WiFi connected, though WiFi may not work for the install.)
+Install _ubuntu
+
+Select your language (if you want Chinese support, install Chinese for best results. You can change the system language later.)
+
+Check to "Download updates while installing". Some of these updates may not be available after the install.
+Check to install 3rd party apps if you want the most convenience and support.
+
+For Disk Setup, choose "Manual" or "Something else". Don't choose any of the pre-planned options.
+*If you have four primary partitions, you may need to delete one, then create an extended partition in the free space first...
+*Go to the menu, type "Gparted". Then create a new partition. If you can't, back up and delete D first.
+*Then make the new partition "extended".
+*Then restart the installer and follow the same steps to this point.
+
+Disck Setup/Configuration (Manual / Something else)
+*Always create these at the end of the available disk space first, to keep things changeable later on.
+1. Create a "swap area" 10GB or 2x your total RAM, whichever is larger. (2x RAM less than 10GB if you need to save space)
+2. Create an "ext4 extended/logical partition". Mount "/home" and make it big, but leave about 15-30GB for the OS, bigger is better for both.
+*If you have a desktop computer with two hard drives, optimal is /home on a large HDD and / on the second part of an SSD.
+*Either way, note which device your /home folder is on for step 4
+3. Create an "ext4 extended/logical partition". Mount "/" and use the 15-30GB of space you left.
+4. Choose to put the bootloader on the same base device as /home. (If /home is on sdb3, put the bootloader on sdb)
+*Putting the bootloader on the same drive as /home is secure. Removing the drive will remove your files and _ubuntu boot capability.
+*This also prevents Windows and the bootloader from conflicting by being on the same drive. Single-drive computers don't matter, but it is still the same.
+
+Regional and Keyboard settings should use defualts. "English" keyboards use QWERTY layout, even for Chinese and Japanese stickers it's "English".
+
+Name the computer:
+I do one lower-case for the OS (Kubuntu = k, Windows = w, etc)
+Then my own name with "Book" or "Desk" and something recognizable.
+Then my initials at the end.
+Camel-case (first word lower-case, all new words start with a cap)
+eg: xWritingBookJS (Xubuntu, notebook I use for writing, I'm Jesse)
+...I do this because there is no real standard for how in the bl@@ping w@rld to name computers. This is understandable.
+
+"Automatically log on" is only if you don't mind everyone and their dog going through your secret batcave files. (Bad idea unless you're a busy mom wtih no batcave.)
+"Encrypt my home folder" will encrypt /home, so booting will be difficult. This is for companies and Batman's and Fox's computers in the R&D and batcave, but not Bruce Wayne's office computer.
+
+Enjoy
