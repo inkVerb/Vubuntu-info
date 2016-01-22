@@ -26,6 +26,13 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 sudo apt-get update
 sudo apt-get install skype
 
+# Wacom tablet drivers
+sudo add-apt-repository ppa:doctormo/wacom-plus
+sudo apt-get update
+sudo apt-get dist-upgrade
+## Then install the update kernel module
+sudo apt-get install wacom-dkms
+
 #flash plugins: (may be redundant from others)
 sudo apt-get install flashplugin-installer
 
