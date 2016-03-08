@@ -5,6 +5,12 @@ sudo passwd
 sudo apt-get update
 sudo apt-get upgrade
 
+# Add Skype's repo and install it (if you want)
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo apt-get update
+## Now you can run
+sudo apt-get install skype
+
 # Fav apps for verbists (cool, artistic people who email)
 sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox
 
@@ -20,11 +26,6 @@ xubuntu-restricted-extras
 kubuntu-restricted-extras
 ubuntu-restricted-extras
 # ...Optionally Choose based on your distro, just add it to the long line above
-
-# Add Skype's repo and install it (if you want)
-sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-sudo apt-get update
-sudo apt-get install skype
 
 # Wacom tablet drivers
 sudo add-apt-repository ppa:doctormo/wacom-plus
