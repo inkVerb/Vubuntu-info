@@ -22,10 +22,10 @@ sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vl
 ## Normally, choose "No" for jackd realtime control, must accept EULA during install
 sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-menu ubuntustudio-desktop
 
-xubuntu-restricted-extras
-kubuntu-restricted-extras
-ubuntu-restricted-extras
-# ...Optionally Choose based on your distro, just add it to the long line above
+# ...Optionally Choose based on your distro
+sudo apt-get install xubuntu-restricted-extras
+sudo apt-get install kubuntu-restricted-extras
+sudo apt-get install ubuntu-restricted-extras
 
 # Wacom tablet drivers
 sudo add-apt-repository ppa:doctormo/wacom-plus
