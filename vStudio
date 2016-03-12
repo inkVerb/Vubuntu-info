@@ -60,8 +60,11 @@ sudo apt-get update
 sudo apt-get install spotify-client
 
 # evernote support - everpad
+#### May be depreciated, if necessary remove ######
 sudo add-apt-repository ppa:nvbn-rm/ppa
 sudo apt-get update
+## Remove if repo error:
+# sudo add-apt-repository -r ppa:nvbn-rm/ppa
 sudo apt-get install everpad
 
 # Command to make scroll lock work (if you need it to)
