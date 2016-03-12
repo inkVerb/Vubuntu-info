@@ -40,12 +40,8 @@ sudo apt-get install flashplugin-installer
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
 sudo apt-get install rss-glx
-## Normally to finish, you must run all these as NOT root...
-killall xscreensaver
-/usr/bin/rss-glx_install
-xscreensaver -nosplash &
-## If problems, check instructions in this file:
->> /usr/share/doc/rss-glx/README.xscreensaver
+## Check instructions in this file:
+nano /usr/share/doc/rss-glx/README.xscreensaver
 
 # To install extra fonts
 ## put them in the .fonts folder of home directory
