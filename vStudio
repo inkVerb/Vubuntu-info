@@ -5,14 +5,12 @@ sudo passwd
 sudo apt-get update
 sudo apt-get upgrade
 
-# Add Skype's repo and install it (if you want)
+# Add the Canonical repo for Skype and flash plugins
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
-## Now you can run
-sudo apt-get install skype
 
 # Fav apps for verbists (cool, artistic people who email)
-sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin pepperflashplugin-nonfree adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox
+sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin pepperflashplugin-nonfree adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype
 
 # Fav apps for verbists who are also web developers (redundant from above, don't use if you don't need FileZilla)
 sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin pepperflashplugin-nonfree adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox
