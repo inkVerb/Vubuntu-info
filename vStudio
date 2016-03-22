@@ -10,10 +10,10 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 sudo apt-get update
 
 # Fav apps for verbists (cool, artistic people who email)
-sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype
+sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype
 
 # Fav apps for verbists who are also web developers (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox
+sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox
 
 # Add ubuntu studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
