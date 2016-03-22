@@ -25,16 +25,6 @@ sudo apt-get install xubuntu-restricted-extras
 sudo apt-get install kubuntu-restricted-extras
 sudo apt-get install ubuntu-restricted-extras
 
-# Wacom tablet drivers
-sudo add-apt-repository ppa:doctormo/wacom-plus
-sudo apt-get update
-sudo apt-get dist-upgrade
-## Then install the update kernel module
-sudo apt-get install wacom-dkms
-
-#flash plugins: (may be redundant from others)
-sudo apt-get install flashplugin-installer
-
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
 sudo apt-get install rss-glx
@@ -42,7 +32,14 @@ sudo apt-get install rss-glx
 nano /usr/share/doc/rss-glx/README.xscreensaver
 
 # If installing ubuntu
-sudo apt-get install compizconfig-settings-manager
+sudo apt-get install compizconfig-settings-manager thunar thunar-archive-plugin phatch thunar-media-tags-plugin
+
+# Wacom tablet drivers
+sudo add-apt-repository ppa:doctormo/wacom-plus
+sudo apt-get update
+sudo apt-get dist-upgrade
+## Then install the update kernel module
+sudo apt-get install wacom-dkms
 
 # To install extra fonts
 ## put them in the .fonts folder of home directory
@@ -52,6 +49,9 @@ fc-cache -f -v
 # Native Asian keyboard switcher, fcitx (and the others lang supp asks to add)
 ## After install, must add the languages you want in regional/language settings
 sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
+
+#flash plugins: (may be redundant from others)
+sudo apt-get install flashplugin-installer
 
 # Spotify
 ## instructions to see if this is current: https://www.spotify.com/tw/download/linux/
