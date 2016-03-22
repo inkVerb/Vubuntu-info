@@ -46,11 +46,19 @@ sudo apt-get install wacom-dkms
 ## refresh fonts:
 fc-cache -f -v
 
-# Native Asian keyboard switcher, fcitx (and the others lang supp asks to add)
-## After install, must add the languages you want in regional/language settings
+# Native Taiwan Chinese keyboard switcher, fcitx (and the others lang supp asks to add)
+## AFTER install:
+### Regional/language settings (let it update/fix language support)
+#### > Keyboard input method: fctix
+#### > Install/Remove Languages... (Chinese - Traditional)
+#### * Check regional formats (lots of confusion: systems and novice programmers make assumptions about this)
+### Add "fcitx" to starup programs (in addition to any fcitx-??? already in startup)
+### Fcitx Configuration > Input Method > + (Add) > [uncheck Only Show Current Language] > Chewing (Chinese - Taiwan)
+### Restart
 sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
 
-#flash plugins: (may be redundant from others)
+# Flash plugins: (may be redundant from above)
+## Never install adobe-flashplugin, it conflicts with this. This makes Flash work with the browsers.
 sudo apt-get install flashplugin-installer
 
 # Spotify
