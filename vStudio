@@ -32,7 +32,7 @@ sudo apt-get install rss-glx
 nano /usr/share/doc/rss-glx/README.xscreensaver
 
 # If installing ubuntu
-sudo apt-get install compizconfig-settings-manager thunar thunar-archive-plugin phatch thunar-media-tags-plugin
+sudo apt-get install compizconfig-settings-manager mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin
 
 # Wacom tablet drivers
 sudo add-apt-repository ppa:doctormo/wacom-plus
