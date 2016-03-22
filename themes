@@ -1,0 +1,14 @@
+#For gnome shell, you can install the gnome-tweak-tool:
+sudo apt-get install gnome-tweak-tool
+
+#For Ubuntu unity, you can either install the gnome-tweak-tool or you can use the unity-tweak-tool to change themes:
+sudo apt-get install unity-tweak-tool
+
+#Download and extract all themes to your ~/.themes directory. Run the following command to create this directory:
+mkdir ~/.themes
+
+#This directory is hidden, so you must press CTRL + H after you open nautilus to display hidden files if the directory is not displayed.
+#Once the theme has been downloaded and extracted to your ~/.themes directory, open either gnome-tweak-tool or unity-tweak-tool to select the theme.
+
+#Thanks
+# http://askubuntu.com/questions/213697/how-can-i-install-gtk-themes-on-ubuntu
