@@ -1,9 +1,9 @@
 # This resets things via commands
-service lightdm stop
-apt-get remove lightdm
-apt-get update && sudo apt-get install lightdm
-service lightdm start 
-service lightdm restart
+sudo service lightdm stop
+sudo apt-get remove lightdm
+sudo apt-get update && sudo apt-get install lightdm
+sudo service lightdm start 
+sudo service lightdm restart
 
 # This resets via settings without uninstalling
 # This affects the settings directly
