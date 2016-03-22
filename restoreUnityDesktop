@@ -1,0 +1,12 @@
+# This resets things via commands
+service lightdm stop
+apt-get remove lightdm
+apt-get update && sudo apt-get install lightdm
+service lightdm start 
+service lightdm restart
+
+# This resets via settings without uninstalling
+# This affects the settings directly
+echo '[SeatDefaults]' | sudo tee /etc/lightdm/lightdm.conf.d/50-unity-greeter.conf
+echo 'greeter-session=unity-greeter' | sudo tee -a /etc/lightdm/lightdm.conf.d/50-unity-greeter.conf
+sudo chmod +x /etc/lightdm/lightdm.conf.d/50-unity-greeter.conf
