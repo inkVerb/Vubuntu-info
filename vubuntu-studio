@@ -22,7 +22,13 @@ guake OR guake-indicator (not both)
 
 Screensaver instructions: (must make the mod as root after starting xscreensaver settings once)
 nano /usr/share/doc/rss-glx/README.xscreensaver
-sudo nano .xscreensaver
+sudo nano ~/.xscreensaver
+
+Themes:
+download from ubuntuthemes.org
+mkdir ~/.themes
+Unzip themes to ~/.themes/
+Manage via Unity Tweak Tool
 
 Chinese input:
 1. Regional/language settings (let it update/fix language support)
