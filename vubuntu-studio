@@ -38,3 +38,10 @@ Chinese input:
 2. Add "fcitx" to starup programs (in addition to any fcitx-??? already in startup)
 3. Run: Fcitx Configuration > Input Method > + (Add) > [uncheck Only Show Current Language] > Chewing (Chinese - Taiwan)
 4. Restart"
+
+## Further Dev:
+# Better xscreensaver start config info at:
+# http://askubuntu.com/questions/128481/how-do-i-set-xscreensaver-to-autostart
+
+## Further Dev:
+# Add the xscreensaver rss-glx declarations via sed script
