@@ -1,0 +1,34 @@
+# This installs on top of English Ubuntu: Ubuntu Studio, retaining Unity, while adding Taiwan Chinese, desktop management, and all verbist geek tools
+# Make this file executable with: chmod +X vubuntu-studio
+# Run as sudo ./vubuntu-studio
+add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+apt-get update && apt-get -y upgrade && apt-get -y install \
+## Basic tools for _ubuntu
+rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox \
+## Ubuntu specific
+mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin \
+## Ubuntu Studio
+ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video \
+## Ubuntu specific desktop
+ubuntustudio-wallpapers unity-tweak-tool compizconfig-settings-manager xscreensaver rss-glx ubuntu-restricted-extras
+
+## Final instructions:
+echo "All is installed!
+
+Add to startup:
+sh -c \"sleep 10 && xscreensaver -no-splash &\"
+fctix
+guake OR guake-indicator (not both)
+
+Screensaver instructions: (must make the mod as root after starting xscreensaver settings once)
+nano /usr/share/doc/rss-glx/README.xscreensaver
+sudo nano .xscreensaver
+
+Chinese input:
+1. Regional/language settings (let it update/fix language support)
+ > Keyboard input method: fctix
+ > Install/Remove Languages... (Chinese - Traditional)
+ * Check regional formats (lots of confusion: systems and novice programmers make assumptions about this)
+2. Add "fcitx" to starup programs (in addition to any fcitx-??? already in startup)
+3. Run: Fcitx Configuration > Input Method > + (Add) > [uncheck Only Show Current Language] > Chewing (Chinese - Taiwan)
+4. Restart"
