@@ -1,10 +1,12 @@
 # This installs on top of English Ubuntu: Ubuntu Studio, retaining Unity, while adding Taiwan Chinese, desktop management, and all verbist geek tools
 # Make this file executable with: chmod +X vubuntu-studio
 # Run as sudo ./vubuntu-studio
+
 add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+add-apt-repository -y ppa:pbek/qownnotes
 apt-get update && apt-get -y upgrade && apt-get -y install \
 ## Basic tools for _ubuntu
-rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox \
+rar unrar zip git vim guake guake-indicator kate dolphin vlc qownnotes clementine amarok docky filezilla thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium skype nautilus-dropbox \
 ## Ubuntu specific
 mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin \
 ## Ubuntu Studio
