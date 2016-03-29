@@ -1,4 +1,5 @@
 # This installs on top of English Ubuntu: Ubuntu Studio, retaining Unity, while adding Taiwan Chinese, desktop management, and all verbist geek tools
+## It may also work on top of English Ubuntu-GNOME
 # Make this file executable with: chmod +X vubuntu-studio
 # Run as sudo ./vubuntu-studio
 
