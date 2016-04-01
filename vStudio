@@ -5,25 +5,28 @@ sudo passwd
 sudo apt-get update
 sudo apt-get upgrade
 
-# Add the Canonical repo for Skype and flash plugins
+# Canonical repo - the for Skype and flash plugins
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 
-# Fav apps for verbists (cool, artistic people who email)
-sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc
+# Verbist apps (cool, artistic people who email)
+sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
-# Fav apps for verbists who are also web developers (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser pepperflashplugin-nonfree flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc
+# WebDev Verbist apps (redundant from above, don't use if you don't need FileZilla)
+sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
-# Add ubuntu studio to kubuntu/xubuntu/ubuntu:
+# Ubuntu Studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
 ## Normally, choose "No" for jackd realtime control, must accept EULA during install
-sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video
+sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video 
 
-# ...Optionally Choose based on your distro
+# ...Choose based on your distro (optional)
 sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
+
+# Ubuntu for humans
+sudo apt-get install compizconfig-settings-manager mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin
 
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
@@ -31,8 +34,21 @@ sudo apt-get install rss-glx
 ## Check instructions in this file:
 nano /usr/share/doc/rss-glx/README.xscreensaver
 
-# If installing ubuntu
-sudo apt-get install compizconfig-settings-manager mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin
+# fcitxc - Native Taiwan Chinese keyboard switcher, fcitx (and the others lang supp asks to add)
+## AFTER install:
+### Regional/language settings (let it update/fix language support)
+#### > Keyboard input method: fctix
+#### > Install/Remove Languages... (Chinese - Traditional)
+#### * Check regional formats (lots of confusion: systems and novice programmers make assumptions about this)
+### Add "fcitx" to starup programs (in addition to any fcitx-??? already in startup)
+### Fcitx Configuration > Input Method > + (Add) > [uncheck Only Show Current Language] > Chewing (Chinese - Taiwan)
+### Restart
+sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
+
+# To install extra fonts
+## put them in the .fonts folder of home directory
+## refresh fonts:
+fc-cache -f -v
 
 # GNOME
 sudo apt-get install gnome
@@ -54,22 +70,6 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 ## Then install the update kernel module
 sudo apt-get install wacom-dkms
-
-# To install extra fonts
-## put them in the .fonts folder of home directory
-## refresh fonts:
-fc-cache -f -v
-
-# Native Taiwan Chinese keyboard switcher, fcitx (and the others lang supp asks to add)
-## AFTER install:
-### Regional/language settings (let it update/fix language support)
-#### > Keyboard input method: fctix
-#### > Install/Remove Languages... (Chinese - Traditional)
-#### * Check regional formats (lots of confusion: systems and novice programmers make assumptions about this)
-### Add "fcitx" to starup programs (in addition to any fcitx-??? already in startup)
-### Fcitx Configuration > Input Method > + (Add) > [uncheck Only Show Current Language] > Chewing (Chinese - Taiwan)
-### Restart
-sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
 
 # Flash plugins: (may be redundant from above)
 ## Never install adobe-flashplugin, it conflicts with this. This makes Flash work with the browsers.
