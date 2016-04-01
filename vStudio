@@ -12,7 +12,7 @@ sudo apt-get update
 # Verbist apps (cool, artistic people who email)
 sudo apt-get install rar unrar zip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
-# WebDev Verbist apps (redundant from above, don't use if you don't need FileZilla)
+# Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
 sudo apt-get install rar unrar zip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
 # Ubuntu Studio to kubuntu/xubuntu/ubuntu:
