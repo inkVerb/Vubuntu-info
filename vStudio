@@ -35,6 +35,8 @@ sudo apt-get install rss-glx
 nano /usr/share/doc/rss-glx/README.xscreensaver
 
 ################ Extra Help ################
+# gcin - better Chinese keyboard for Taiwan
+apt-get install gcin
 
 # fcitxc - Native Taiwan Chinese keyboard switcher, fcitx (and the others lang supp asks to add)
 ## AFTER install:
