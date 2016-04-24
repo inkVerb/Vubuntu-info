@@ -24,10 +24,15 @@ sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-
 sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
-sudo apt-get install gnome-tweak-tool ubuntu-restricted-extras ubuntustudio-wallpapers
 
-# Ubuntu for humans
-sudo apt-get install compizconfig-settings-manager mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin
+# ...For Ubuntu GNOME
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager mousepad gnome-session-wayland
+
+# Ubuntu Unity for humans
+sudo apt-get install compizconfig-settings-manager mousepad gnome-session-wayland
+
+# Thunar
+sudo apt-get install thunar thunar-archive-plugin phatch thunar-media-tags-plugin
 
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
@@ -55,7 +60,7 @@ sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-
 ## refresh fonts:
 fc-cache -f -v
 
-# GNOME
+# Add GNOME to Unity (May not work entirely)
 sudo apt-get install gnome
 ## GNOME Desktop only
 sudo apt-get install ubuntu-gnome-desktop
