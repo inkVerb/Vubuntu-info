@@ -24,6 +24,7 @@ sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-
 sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
+sudo apt-get install gnome-tweak-tool ubuntu-restricted-extras ubuntustudio-wallpapers
 
 # Ubuntu for humans
 sudo apt-get install compizconfig-settings-manager mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin
