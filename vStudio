@@ -25,11 +25,11 @@ sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
 
-# ...For Ubuntu GNOME
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
+# ...For Ubuntu GNOME for humans
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
 
 # Ubuntu Unity for humans
-sudo apt-get install compizconfig-settings-manager gnome-session-wayland
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
 
 
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
