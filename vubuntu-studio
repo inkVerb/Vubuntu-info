@@ -7,13 +7,28 @@ add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner
 add-apt-repository -y ppa:pbek/qownnotes
 apt-get update && apt-get -y upgrade && apt-get -y install \
 ## Basic tools for _ubuntu
-zip p7zip-full gzip zip git vim guake guake-indicator kate dolphin vlc qownnotes clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc
-## Ubuntu specific
-mousepad thunar thunar-archive-plugin phatch thunar-media-tags-plugin \
+zip p7zip-full gzip zip git vim mousepad guake guake-indicator kate dolphin vlc qownnotes clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc
+
 ## Ubuntu Studio
 ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video \
-## Ubuntu specific desktop
-ubuntustudio-wallpapers unity-tweak-tool compizconfig-settings-manager xscreensaver rss-glx ubuntu-restricted-extras
+
+## Desktop Specific
+ubuntustudio-wallpapers xscreensaver rss-glx \
+
+## Ubuntu
+ubuntu-restricted-extras unity-tweak-tool compizconfig-settings-manager
+ 
+## Ubuntu GNOME
+ubuntu-restricted-extras gnome-tweak-tool compizconfig-settings-manager gnome-session-wayland
+
+## Kubuntu
+kubuntu-restricted-extras
+
+## Xubuntu
+xubuntu-restricted-extras
+
+## Thunar
+thunar thunar-archive-plugin phatch thunar-media-tags-plugin \
 
 ## Final instructions:
 echo "All is installed!
