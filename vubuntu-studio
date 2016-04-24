@@ -22,10 +22,10 @@ ubuntu-restricted-extras unity-tweak-tool compizconfig-settings-manager
 ubuntu-restricted-extras gnome-tweak-tool compizconfig-settings-manager gnome-session-wayland
 
 ## Kubuntu
-kubuntu-restricted-extras
+kubuntu-restricted-extras ubuntustudio-menu
 
 ## Xubuntu
-xubuntu-restricted-extras
+xubuntu-restricted-extras ubuntustudio-menu
 
 ## Thunar
 thunar thunar-archive-plugin phatch thunar-media-tags-plugin \
