@@ -16,10 +16,10 @@ ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio
 ubuntustudio-wallpapers xscreensaver rss-glx \
 
 ## Ubuntu
-ubuntu-restricted-extras unity-tweak-tool compizconfig-settings-manager
+ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool compizconfig-settings-manager
  
 ## Ubuntu GNOME
-ubuntu-restricted-extras gnome-tweak-tool compizconfig-settings-manager gnome-session-wayland
+ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool compizconfig-settings-manager gnome-session-wayland
 
 ## Kubuntu
 kubuntu-restricted-extras ubuntustudio-menu
