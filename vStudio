@@ -10,10 +10,10 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 sudo apt-get update
 
 # Verbist apps (cool, artistic people who email)
-sudo apt-get install zip p7zip-full gzip guake kate dolphin vlc clementine amarok docky thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
+sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
 # Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator kate dolphin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
+sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
 # Ubuntu Studio to kubuntu/xubuntu/ubuntu:
 ## Don't use the Ubuntu Studio Meta Installer
@@ -26,13 +26,11 @@ sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
 
 # ...For Ubuntu GNOME
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager mousepad gnome-session-wayland
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
 
 # Ubuntu Unity for humans
-sudo apt-get install compizconfig-settings-manager mousepad gnome-session-wayland
+sudo apt-get install compizconfig-settings-manager gnome-session-wayland
 
-# Thunar
-sudo apt-get install thunar thunar-archive-plugin phatch thunar-media-tags-plugin
 
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
