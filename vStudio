@@ -27,6 +27,8 @@ sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
 
 # ...For Ubuntu GNOME for humans
 sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
+## Icons in GIMP, Inkscape, LibreOffice, etc
+gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
 
 # Ubuntu Unity for humans
 sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
@@ -97,9 +99,6 @@ sudo apt-get update
 ## Remove if repo error:
 # sudo add-apt-repository -r ppa:nvbn-rm/ppa
 sudo apt-get install everpad
-
-# Command to make scroll lock work (if you need it to)
-xmodmap -e 'add mod3 = Scroll_Lock'
 
 # To update to a new distro (use carefully, probably only on servers and preexisting minimal installations)
 apt-get install update-manager-core
