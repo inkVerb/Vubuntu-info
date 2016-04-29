@@ -26,9 +26,11 @@ sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio
 sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
 
 # ...For Ubuntu GNOME for humans
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
+sudo apt-get install maximus ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
 ## Icons in GIMP, Inkscape, LibreOffice, etc
 gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
+## Run Maximus for no title bar
+maximus
 
 # Ubuntu Unity for humans
 sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
