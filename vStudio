@@ -11,10 +11,10 @@ sudo apt-get update
 
 
 # Verbist apps (cool, artistic people who email)
-sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox flashplugin-installer chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
+sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
 # Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox flashplugin-installer chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
+sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox skype grabc 
 
 
 # Ubuntu Studio to kubuntu/xubuntu/ubuntu:
@@ -23,24 +23,25 @@ sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator mousepad 
 sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video 
 
 
-# ...Choose based on your distro (optional, not GNOME)
+# ...For K/X_ubuntu
 sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
-sudo apt-get install ubuntu-restricted-extras ubuntustudio-wallpapers
 
 # ...For Ubuntu GNOME for humans
-sudo apt-get install maximus ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
 ##
 ## New Documents context menu for Nautilus
 cd ~/Templates
 touch "New TXT"
 ##
-## Icons in GIMP, Inkscape, LibreOffice, etc
+## Icons in GIMP, Inkscape, LibreOffice, etc (Run as user, not root)
 gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
 
 # Ubuntu Unity for humans
 sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
 
+# Remove title bar
+sudo apt-get install maximus
 
 # Really Slick Screensavers (No support in KDE 5/Kubuntu)
 sudo apt-get install xscreensaver
@@ -90,7 +91,7 @@ sudo apt-get dist-upgrade
 sudo apt-get install wacom-dkms
 
 # Flash plugins: (may be redundant from above)
-## Never install adobe-flashplugin, it conflicts with this. This makes Flash work with the browsers.
+## This conflicts with adobe-flashplugin. While this makes flash work in FireFox, it doesn't seem to work for Chromium.
 sudo apt-get install flashplugin-installer
 
 # Spotify
