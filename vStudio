@@ -11,10 +11,10 @@ sudo apt-get update
 sudo apt-get install skype
 
 # Verbist apps (cool, artistic people who email)
-sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox grabc 
+sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
 
 # Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil stellarium nautilus-dropbox grabc 
+sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator grabc mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox 
 
 
 # Ubuntu Studio to kubuntu/xubuntu/ubuntu:
