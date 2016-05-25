@@ -5,25 +5,26 @@ sudo passwd
 sudo apt-get update
 sudo apt-get upgrade
 
-# Canonical repo - the for Skype and flash plugins
+# Canonical repo - the for Skype and adobe-flashplugin
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 sudo apt-get install skype
 
-## Testing flashplugin-installer with adobe-flashplugin
-# Verbist apps (cool, artistic people who email)
-sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
+# Flash
+## EASY: 32 bit, layer for 64 bit, native repository
+flashplugin-installer
 
-## Testing flashplugin-installer with adobe-flashplugin
-# Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator grabc mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin flashplugin-installer djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox 
+## Proper: 64 bit and 32 bit, partner repository (same as Skype)
+adobe-flashplugin
 
 
-# Verbist apps (cool, artistic people who email)
-sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
+# Verbist
 
-# Verbist & WebDev apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator grabc mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser adobe-flashplugin djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox 
+## Apps (cool, artistic people who email)
+sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
+
+## WebDev Apps (redundant from above, don't use if you don't need FileZilla)
+sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator grabc mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox 
 
 
 # Ubuntu Studio to kubuntu/xubuntu/ubuntu:
