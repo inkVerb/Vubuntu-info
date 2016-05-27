@@ -19,7 +19,7 @@ sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thun
 # WebDev
 sudo apt-get install git vim guake-indicator filezilla 
 
-# Ubuntu Studio:
+# Ubuntu Studio (15-45 minutes)
 ## "No" for jackd realtime control, EULA "Yes"
 sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video 
 
