@@ -8,15 +8,7 @@ sudo apt-get upgrade
 # Canonical repo - the for Skype and adobe-flashplugin
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
-sudo apt-get install skype
-
-# Flash
-## EASY: 32 bit, layer for 64 bit, native repository
-flashplugin-installer
-
-## Proper: 64 bit and 32 bit, partner repository (same as Skype)
-adobe-flashplugin
-
+sudo apt-get install skype adobe-flashplugin
 
 # Verbist
 
@@ -62,6 +54,7 @@ nano /usr/share/doc/rss-glx/README.xscreensaver
 # ownCloud
 mkdir Keys
 cd Keys
+rm *
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Ubuntu_16.04/ /' >> /etc/apt/sources.list.d/owncloud-client.list"
 sudo apt-get update
 wget http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_16.04/Release.key
@@ -110,9 +103,14 @@ sudo apt-get dist-upgrade
 ## Then install the update kernel module
 sudo apt-get install wacom-dkms
 
-# Flash plugins: (may be redundant from above)
-## This conflicts with adobe-flashplugin. While this makes flash work in FireFox, it doesn't seem to work for Chromium.
+
+# Flash
+## EASY: 32 bit, layer for 64 bit, native repository
 sudo apt-get install flashplugin-installer
+
+## Proper: 64 bit and 32 bit, partner repository (same as Skype)
+sudo apt-get install adobe-flashplugin
+
 
 # Spotify
 ## instructions to see if this is current: https://www.spotify.com/tw/download/linux/
