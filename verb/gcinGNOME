@@ -1,13 +1,14 @@
 # This installs gcin on GNOME as the Mandarin bopomofo input favored by Taiwanese
 sudo apt-get install gcin
 im-config
+## Yes, yes, gcin
 cat ~/.xinputrc
 echo 'run_im gcin' > ~/.xinputrc
-sudo reboot
+## sudo reboot
 ps aux | grep ibus
 ps aux | grep gcin
 sudo apt-get purge ibus
-sudo reboot
+## sudo reboot
 
 
 
