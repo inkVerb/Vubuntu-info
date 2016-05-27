@@ -8,3 +8,9 @@ ps aux | grep ibus
 ps aux | grep gcin
 sudo apt-get purge ibus
 sudo reboot
+
+
+
+### Sources
+http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=105236&forum=4&post_id=352412
+http://blog.xuite.net/ubuntu/linux/7694781-Ubuntu(GNOME%E6%A1%8C%E9%9D%A2)+Linux+%E5%AE%89%E8%A3%9Dgcin
