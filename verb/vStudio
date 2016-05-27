@@ -12,44 +12,33 @@ sudo apt-get install skype adobe-flashplugin
 
 # Verbist
 
-## Apps (cool, artistic people who email)
+## Apps (arts, code, email)
 sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
 
-## WebDev Apps (redundant from above, don't use if you don't need FileZilla)
-sudo apt-get install zip p7zip-full gzip git vim guake guake-indicator grabc mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky filezilla thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox 
+## WebDev
+sudo apt-get install git vim guake-indicator filezilla 
 
-
-# Ubuntu Studio to kubuntu/xubuntu/ubuntu:
-## Don't use the Ubuntu Studio Meta Installer
-## Normally, choose "No" for jackd realtime control, must accept EULA during install
+# Ubuntu Studio:
+## "No" for jackd realtime control, EULA "Yes"
 sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video 
 
 
+# ...For Ubuntu GNOME/Unity for humans
+sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
+
+## Icons in GIMP, Inkscape, LibreOffice, etc (Run as user, not root)
+gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
+
+## Remove title bar
+sudo apt-get install maximus
+
+
+
+####### Kubuntu/Xubuntu etc #######
 # ...For K/X_ubuntu
 sudo apt-get install xubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 sudo apt-get install kubuntu-restricted-extras ubuntustudio-desktop ubuntustudio-menu
 
-# ...For Ubuntu GNOME for humans
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager gnome-session-wayland
-##
-## New Documents context menu for Nautilus
-cd ~/Templates
-touch "New TXT"
-##
-## Icons in GIMP, Inkscape, LibreOffice, etc (Run as user, not root)
-gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
-
-# Ubuntu Unity for humans
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
-
-# Remove title bar
-sudo apt-get install maximus
-
-# Really Slick Screensavers (No support in KDE 5/Kubuntu)
-sudo apt-get install xscreensaver
-sudo apt-get install rss-glx
-## Check instructions in this file:
-nano /usr/share/doc/rss-glx/README.xscreensaver
 
 # ownCloud
 mkdir Keys
@@ -61,11 +50,13 @@ wget http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_16.04
 sudo apt-key add - < Release.key  
 sudo apt-get install owncloud-client
 
+# Really Slick Screensavers (No support in KDE 5/Kubuntu)
+sudo apt-get install xscreensaver
+sudo apt-get install rss-glx
+## Check instructions in this file:
+nano /usr/share/doc/rss-glx/README.xscreensaver
 
 ################ Extra Help ################
-# gcin - better Chinese keyboard for Taiwan
-sudo apt-get install gcin
-
 # fcitxc - Native Taiwan Chinese keyboard switcher, fcitx (and the others lang supp asks to add)
 ## AFTER install:
 ### Regional/language settings (let it update/fix language support)
