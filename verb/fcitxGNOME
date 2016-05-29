@@ -9,4 +9,5 @@ ps aux | grep ibus
 ps aux | grep gcin
 ps aux | grep fcitx
 sudo apt-get purge ibus
+sudo apt-get purge gcin
 ## sudo reboot
