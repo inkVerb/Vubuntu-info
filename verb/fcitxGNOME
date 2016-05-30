@@ -1,19 +1,26 @@
 # This installs fcitx on GNOME (Orance-Gray, use Compose Key, Ubuntu Unity native Chinese input)
-## RETIRED: fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca
-sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing
+## ** This uses an unknown dependency (probably from Canonical) not native to GNOME. Installing Ubuntu Studio seems to provide it.
+## ** Without this dependency, the qimpanel selector skins can't render either in settings preview or typing.
+
+## Also: The Canonical skin (orange, gray, etc) is overridden by the Fcitx skin settings
+## ** Solution: Run fcitx-qimpanel-configtool BEFORE running Fcitx or Fcitx Configuration!! (Otherwise, reinstall OS to fix, haha.)
+
+# Prerequesites for this to work
+## 1. Ubuntu Studio installed via command line (see vStudio and vGNOME-all - can be done after these instructions)
+## 2. Run fcitx-qimpanel-configtool right away, after installing fcitx (below - can't be undone if skipped)
+
+#Instructions:
+
+sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
 ## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, then exit (creating configs)
-## Add fcitx to Tweak > Startup Applications. Do this now, not later, to enable proper skinning
-## sudo reboot
-## Run Fcitx Configuration from the GNOME dashboard
-## Go to Settings > Region/Language, add Chinese (Taiwan) (creating configs and installing dependencies)
-## Go to Settings > Region/Language, add input method: Chinese (Bopomofo) (creating configs and installing dependencies)
-## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, select skin, apply, then exit (setting configs)
 im-config
 ## Yes, yes, fcitx, yes
 cat ~/.xinputrc
 echo 'run_im fcitx' > ~/.xinputrc
 ## sudo reboot
+ps aux | grep ibus
 ps aux | grep fcitx
+sudo apt-get purge ibus
 ## sudo reboot
 
 ## If gcin is installed
@@ -21,7 +28,4 @@ ps aux | grep gcin
 sudo apt-get purge gcin
 ## sudo reboot
 
-## If other Chinese input was installed
-ps aux | grep ibus
-sudo apt-get purge ibus
-## sudo reboot
+
