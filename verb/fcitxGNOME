@@ -1,9 +1,12 @@
 # This installs fcitx on GNOME (Orance-Gray, use Compose Key, Ubuntu Unity native Chinese input)
 ## RETIRED: fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca
 sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing
-## Go to Settings > Region/Language, add Chinese (Taiwan)
+## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, then exit (creating configs)
 ## Add fcitx to Tweak > Startup Applications. Do this now, not later, to enable proper skinning
-fcitx-qimpanel-configtool
+## sudo reboot
+## Run Fcitx Configuration from the GNOME dashboard
+## Go to Settings > Region/Language, add Chinese (Taiwan) (creating configs and installing dependencies)
+## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, select skin, apply, then exit (setting configs)
 im-config
 ## Yes, yes, fcitx, yes
 cat ~/.xinputrc
