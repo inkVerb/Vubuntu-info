@@ -7,12 +7,15 @@ im-config
 cat ~/.xinputrc
 echo 'run_im fcitx' > ~/.xinputrc
 ## sudo reboot
-ps aux | grep ibus
 ps aux | grep fcitx
-sudo apt-get purge ibus
 ## sudo reboot
 
 ## If gcin is installed
 ps aux | grep gcin
 sudo apt-get purge gcin
+## sudo reboot
+
+## If other Chinese input was installed
+ps aux | grep ibus
+sudo apt-get purge ibus
 ## sudo reboot
