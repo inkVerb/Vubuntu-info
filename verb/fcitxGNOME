@@ -8,6 +8,7 @@
 # Prerequesites for this to work
 ## 1. Ubuntu Studio installed via command line (see vStudio and vGNOME-all - can be done after these instructions)
 ## 2. Run fcitx-qimpanel-configtool right away, after installing fcitx (below - can't be undone if skipped)
+## 3. After, run Fcitx Configuration from the GNOME dashboard and add "Chewing" to the input methods
 
 #Instructions:
 
