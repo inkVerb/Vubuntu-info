@@ -6,6 +6,7 @@ sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing
 ## sudo reboot
 ## Run Fcitx Configuration from the GNOME dashboard
 ## Go to Settings > Region/Language, add Chinese (Taiwan) (creating configs and installing dependencies)
+## Go to Settings > Region/Language, add input method: Chinese (Bopomofo) (creating configs and installing dependencies)
 ## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, select skin, apply, then exit (setting configs)
 im-config
 ## Yes, yes, fcitx, yes
