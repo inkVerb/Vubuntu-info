@@ -45,6 +45,8 @@ lshw
 dconf-editor
 
 # USB iso commands
+## See what devices are mounted
+lsblk
 
 ## USB drive to iso file (sdx = USB drive path)
 sudo dd if=/dev/sdx of=/path/to/new.iso
