@@ -1,0 +1,53 @@
+# These are some Ubuntu line commands
+
+sudo passwd #set the passwrod for the super user the first time
+su #root access
+# Note: you only need root access when changing contents outside of your own user home directory, such as installing, updating, upgrading, 
+
+# F2 changes filenames
+
+cd .. # go up one directory
+cd ../peerdirectory #change to peer directory
+cd gotodirectory
+cp originalfile newcopiedfile/and/or/path/ #copies a file
+mkdir #create a new directory
+rm filetoremove #delete a file
+rmdir dirtoremove #delete a directory
+mv oldfileordirname newfileordirname #changes the name of a file or directory to a new name
+ls #list the contents of a directory (directories, files, links)
+ln -s originalfile/or/path/to/file newlinklocationandname/orpath/to/file #creates a link (path to new link is optional, if not specified, a link with the same name will appear in the current directory)
+
+#tarball files have many extensions: .tar .gz .bz2 .....
+tar vjxf tarballfiletountar.tar.bz2
+#zip has its own commands and must be installed
+
+#vim
+vim file to edit #edits a file with vim
+i #insert or "edit" mode
+Esc #exit from insert mode
+:q #quit if no changes
+:q! #quit without saving if changes
+:wq #save and quit
+
+#nano
+nano filetoedit #edits a file with nano
+#nano lists the commands, using Ctrl+ letters. on quitting and saving, it will ask you the file to save as.
+
+
+#scroll lock
+xmodmap -e 'add mod3 = Scroll_Lock' 
+
+# system info
+lspci
+lshw
+
+# dconf GUI editor
+dconf-editor
+
+# USB iso commands
+
+## USB drive to iso file (sdx = USB drive path)
+sudo dd if=/dev/sdx of=/path/to/new.iso
+
+## iso file to USB drive (sdx = USB drive path)
+sudo dd if=/path/to/iso of=/dev/sdx
