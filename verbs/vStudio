@@ -8,23 +8,23 @@ sudo passwd
 sudo apt-get update
 sudo apt-get upgrade
 
-# Canonical repo - the for Skype and adobe-flashplugin
+# Canonical repo - the for Skype, adobe-flashplugin, and Microsoft fonts
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 sudo apt-get install skype adobe-flashplugin
 
 # Verbist (arts, code, email)
-sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc 
+sudo apt-get install zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori epiphany-browser calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc ubuntu-restricted-extras
 
 # WebDev
 sudo apt-get install git vim guake-indicator filezilla 
 
-# Ubuntu Studio (15-45 minutes)
+# Pre-Studio install (to answer the audio and MS font EULA responses before the long Ubuntu Studio install)
 ## "No" for jackd realtime control, EULA "Yes"
-sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video 
+sudo apt-get install jackd2 msttcorefonts
 
-# ...For Ubuntu GNOME/Unity for humans
-sudo apt-get install ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
+# Ubuntu Studio (15-45 minutes for normal Internet connections)
+sudo apt-get install ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntustudio-wallpapers
 
 # Icons in GIMP, Inkscape, LibreOffice, etc (Run as user, not root)
 gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
@@ -32,6 +32,8 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/Shell
 # Remove title bar
 sudo apt-get install maximus
 
+# ...Ubuntu Unity for humans
+sudo apt-get install unity-tweak-tool compizconfig-settings-manager
 
 
 ####### Kubuntu/Xubuntu etc #######
