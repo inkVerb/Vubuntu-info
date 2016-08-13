@@ -20,7 +20,7 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 - Apps currently include a Postfix/Dovecot server, PostfixAdmin, RoundCube, WordPress (with recipies!), ownCloud, SuiteCRM, OrangeHRM, Fossil-SCM, phpMyAdmin, Ghost, Ampache, SFTP accounts, net2FTP, and lots more to come!
 
 ##### Dependencies
-- inkVerb™ namespace: subdomain for verb.ink, verb.email, verb.one, verb.blue, verb.guru, verb.kiwi, verb.red (available for $12/year, the Verber™ serfs use these to sort-out and access different apps)
+- inkVerb™ namespace: subdomain for verb.ink, verb.email, verb.one, verb.blue, verb.guru, verb.kiwi, verb.red (available for $12/year, the Verber™ serfs use these to sort-out and access different apps, each domain can be a different server at the same price!)
 - An in-app repository from inkVerb to install approved versions of some open-source apps (inkVerb™ handles this)
 - A "controllable" web server, (not cute or 'unlimited' hosting from a cheap hosting provider) with the ability to install your own features, run scripts on the server, and manually edit settings files such as PHP, Apache, etc. inkVerb™ uses DigitalOcean ;-)
 
