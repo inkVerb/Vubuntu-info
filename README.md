@@ -11,6 +11,7 @@ Vubuntu™ is an Ubuntu extension project with two parts:
 #### Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
 Automating "cloud control" work on the hosting server speeds up work and reduces human error.
+- Verber™ can be installed from the separate verber repository of inkVerb on GitHub.
 
 ##### Features
 - Email, web app hosting, all on one, simple server. (Of course you can have multiple servers.)
@@ -39,6 +40,7 @@ Vnk™ (pronounced 'vink' as in 'sink') can create cloud folders in Dropbox, own
 - .vnk is part of a roadmap for a "post / email" file that can be recognized as either html, simple text, or markdown. A .vnk-powered CMS may store posts and/or emails and/or notes as .vnk files on the server rather than as database entries.
 - Planned: .vnk files to recognize a word followed by ampersand, ie: word& , as an "anchor" and a word followed by hash, ie: word# , as a link to it. Double and tripple ampersand and hashes should render as superscript and subscript, respectively. And a single, double, or tripple may be trailed by an i, b, u, or any combo thereof for italics, bold, or underlined styling of links and anchors. Links and anchors can be given a longer name via: [Longer Name of Link]link&. This promotes non-conflicting serchability via a mod to markdown's style. Trailing hashes and ampersands are not known to be used elsewhere.
 - Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
+- Vnk™ can be installed from the separate vnk repository of inkVerb on GitHub.
 
 #### Vubuntu™ also has other scripts for installing Ubuntu with many apps quickly.
 These are scripts and copyable commands that may be useful for verbists and Ubuntu power users.
@@ -46,3 +48,4 @@ These are scripts and copyable commands that may be useful for verbists and Ubun
 - Other publishing tools are also included, borrowing many scripts from Ubuntu Studio, good work guys!
 - vStudio contains copyable commands to finish installing extra apps quickly
 - vubuntu-studio installs all these in one command
+- Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro and/or full-fledged script. It is currently in alpha.
