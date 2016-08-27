@@ -6,7 +6,7 @@
 Vubuntu™ is an Ubuntu extension project with two parts:
 
 1. Web servers (Verber™)
-2. Local workstations (desktop, notebook, tablet)
+2. Local workstations: desktop, notebook, tablet, etc. (Vnk™)
 
 #### Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
