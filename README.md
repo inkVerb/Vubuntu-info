@@ -30,8 +30,17 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 - You do not need to write the "TM" ™ after our words like we do, we're just watching out for the sharks. :-)
 - You can support the project by purchasing an inkVerb™ namespace, which will point to the IP on whatever server you choose, including MX and TXT records (for OpenDKIM), or while the project is in Beta you need to choose your own DNS to manage the DNS records yourself.
 
-#### Vubuntu™ workstation
-The work station side of this project contains install scripts and desktop backgrounds for humans computing at home and office.
+#### Vnk™ workstation
+The work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office.
+Vnk™ (pronounced 'vink' as in 'sink') can create cloud folders in Dropbox, ownCloud, or another cloud service, then replace user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
+- Vnk™ includes a Templates folder with some common starter documents including .vnk (or .vink) files for txt files.
+- The .vnk file extension is an empty file that you can train Dropbox or other operating systems to open with a simple text editor.
+- A .vnk file can be read as an html file with the <!DOCTYPE html> declaration as a solution for rich text. 
+- .vnk is part of a roadmap for a "post / email" file that can be recognized as either html, simple text, or markdown. A .vnk-powered CMS may store posts and/or emails and/or notes as .vnk files on the server rather than as database entries.
+- Planned: .vnk files to recognize a word followed by ampersand, ie: word& , as an "anchor" and a word followed by hash, ie: word# , as a link to it. Double and tripple ampersand and hashes should render as superscript and subscript, respectively. And a single, double, or tripple may be trailed by an i, b, u, or any combo thereof for italics, bold, or underlined styling of links and anchors. Links and anchors can be given a longer name via: [Longer Name of Link]link&. This promotes non-conflicting serchability via a mod to markdown's style. Trailing hashes and ampersands are not known to be used elsewhere.
+- Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
+
+#### Vubuntu™ also has other scripts for installing Ubuntu with many apps quickly.
 These are scripts and copyable commands that may be useful for verbists and Ubuntu power users.
 - guake-indicator is a guake addon that allows quick terminal access to other linux instances via command line.
 - Other publishing tools are also included, borrowing many scripts from Ubuntu Studio, good work guys!
