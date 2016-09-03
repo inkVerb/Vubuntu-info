@@ -35,6 +35,10 @@ sudo apt-get install maximus
 # ...Ubuntu Unity for humans
 sudo apt-get install unity-tweak-tool compizconfig-settings-manager
 
+# UNetbootin
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install unetbootin
 
 ####### Kubuntu/Xubuntu etc #######
 # ...For K/X_ubuntu
