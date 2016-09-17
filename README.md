@@ -3,10 +3,11 @@
 *Settings, installs, and files for _ubuntu*
 
 ### About Vubuntu™
-Vubuntu™ is an Ubuntu extension project with two parts:
+Vubuntu™ is an Ubuntu extension project with three parts:
 
-1. Web servers (Verber™)
-2. Local workstations: desktop, notebook, tablet, etc. (Vnk™)
+1. Verber™: Web server scripts
+2. Vnk™: Local workstation (desktop, notebook, tablet, etc.) with scripts and to link easily to a Verber™ server
+3. Vubuntu™ desktop (scripts to install commonly used apps on your workstation.)
 
 #### Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
@@ -33,19 +34,33 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 
 #### Vnk™ workstation
 The work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office.
-Vnk™ (pronounced 'vink' as in 'sink') can create cloud folders in Dropbox, ownCloud, or another cloud service, then replace user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
-- Vnk™ includes a Templates folder with some common starter documents including .vnk (or .vink) files for txt files.
-- The .vnk file extension is an empty file that you can your operating systems to open with a simple text editor or Dropbox can easily export to a text editor.
-- A .vnk file can be read as an html file with the <!DOCTYPE html> declaration as a solution for rich text. 
-- .vnk is part of a roadmap for a "post / email" file that can be recognized as either html, simple text, or markdown. A .vnk-powered CMS may store posts and/or emails and/or notes as .vnk files on the server rather than as database entries.
-- Planned: .vnk files to recognize a word followed by ampersand, ie: word& , as an "anchor" and a word followed by hash, ie: word# , as a link to it. Double and tripple ampersand and hashes should render as superscript and subscript, respectively. And a single, double, or tripple may be trailed by an i, b, u, or any combo thereof for italics, bold, or underlined styling of links and anchors. Links and anchors can be given a longer name via: [Longer Name of Link]link&. This promotes non-conflicting serchability via a mod to markdown's style. Trailing hashes and ampersands are not known to be used elsewhere.
-- Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
-- Vnk™ can be installed from the separate vnk repository of inkVerb on GitHub.
+Vnk™ (pronounced 'vink' as in 'sink') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows.
+##### Vnk™ feathres:
+- Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vnk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
+- Vnk™ includes a "Templates" folder with some common starter documents and files.
+- It has scripts to quickly add Guake Indicator profiles, SSH keys and credentials, and install the lated ownCloud with repos
+- Vnk™ can be installed from the separate inkVerb/vnk repository of  on GitHub.
+- Vnk™ is used to install the Vubuntu™ desktop.
 
-#### Vubuntu™ also has other scripts for installing Ubuntu with many apps quickly.
+##### .vnk/.vink file type (beta)
+- The .vink file extension is an empty file that you can train your operating systems to open with a simple text editor or Dropbox can easily export to a text editor.
+- Generally, .vnk is created and used locally while .vink is used on a Verber™ server or another web app. But they can be used interchageably much like .htm and .html.
+- A .vnk file can be read as an html file with the <!DOCTYPE html> declaration as a solution for rich text. 
+- .vink is part of a roadmap for a "post / email" file that can be recognized as either html, simple text, or markdown. A .vink-powered CMS may store posts and/or emails and/or notes as .vink files on the server rather than as database entries.
+- Planned: .vink files to recognize a word followed by ampersand, ie: word& , as an "anchor" and a word followed by hash, ie: word# , as a link to it. Double and tripple ampersand and hashes should render as superscript and subscript, respectively. And a single, double, or tripple may be trailed by an i, b, u, or any combo thereof for italics, bold, or underlined styling of links and anchors. Links and anchors can be given a longer name via: [Longer Name of Link]link&. This promotes non-conflicting serchability via a mod to markdown's style. Trailing hashes and ampersands are not known to be used elsewhere.
+- Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
+
+#### Vubuntu™ Desktop
+This is based on scripts for installing many commonly-used Ubuntu apps and configuring settings quickly.
 These are scripts and copyable commands that may be useful for verbists and Ubuntu power users.
-- guake-indicator is a guake addon that allows quick terminal access to other linux instances via command line.
-- Other publishing tools are also included, borrowing many scripts from Ubuntu Studio, good work guys!
-- vStudio contains copyable commands to finish installing extra apps quickly
-- vubuntu-studio installs all these in one command
-- Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro and/or full-fledged script. It is currently in alpha.
+##### *You might consider Vubuntu™ Desktop a toned-down version of Ubuntu Studio for artistic web/cloud workders.*
+The included apps and features are for artistic users who work in the cloud, either as developers or who use web apps like WordPress or even people who only use the cloud because they have a lot of stuff to keep backed up.
+
+##### Features installed
+- Chromium, Docky, FileZilla, Midori, Epiphany Browser (if you have GNOME) Guake (with Indicator), Gedit, Libre Office, fonts galore, GIMP (with plugins), Inkscape, Audacity (with Chris' compressor), Audio Tag Tool, LMMS, Ardour, Blender, Darktable, Kdenlive, Flash, GNOME and Ubuntu Studio desktop goodies, Clementine, Amarok (most podcast-friendly), VLC (and friends), Stellarium, Dropbox, Skype, Linux low-latency, and tools like GParted, git, vim, zip, 7zip, etc.
+- The above apps, and a few more, are installed in small clusters in case you have slow Internet and can't download it all in one session.
+- Interactive install packages (MS fonts & Jackd) run first so you can quickly agree to EULA and settings, then walk away.
+- It runs a script to automatically make icons visible in menues for Ubuntu (Unity) and GNOME.
+- It automatically adds a Docky dock and Guake for startup, already configured
+- You might consider installing Vubuntu™ before installing Ubuntu Studio, if you want to install all of Ubuntu Studio. Since many larger apps are included in Vubuntu™ Desktop, your Ubuntu Studio install time will be shorter.
+- Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro that could be installed via unetbootin & USB.
