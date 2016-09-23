@@ -6,7 +6,7 @@
 Vubuntu™ is an Ubuntu extension project with three parts:
 
 1. Verber™: Web server scripts
-2. Vnk™: Local workstation (desktop, notebook, tablet, etc.) with scripts and to link easily to a Verber™ server
+2. Vrk™: Local workstation (desktop, notebook, tablet, etc.) with scripts and to link easily to a Verber™ server
 3. Vubuntu™ desktop (scripts to install commonly used apps on your workstation.)
 
 #### Verber™ Web/Email server "cloud control" app engine for hosting
@@ -32,15 +32,15 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 - You do not need to write the "TM" ™ after our words like we do, we're just watching out for the sharks. :-)
 - You can support the project by purchasing an inkVerb™ namespace, which will point to the IP on whatever server you choose, including MX and TXT records (for OpenDKIM), or while the project is in Beta you need to choose your own DNS to manage the DNS records yourself.
 
-#### Vnk™ workstation
+#### Vrk™ workstation
 The work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office.
-Vnk™ (pronounced 'vink' as in 'sink') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows.
-##### Vnk™ feathres:
-- Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vnk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
-- Vnk™ includes a "Templates" folder with some common starter documents and files.
+Vrk™ (pronounced 'vork' as in 'work') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows.
+##### Vrk™ feathres:
+- Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vrk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
+- Vrk™ includes a "Templates" folder with some common starter documents and files.
 - It has scripts to quickly add Guake Indicator profiles, SSH keys and credentials, and install the lated ownCloud with repos
-- Vnk™ can be installed from the separate inkVerb/vnk repository of  on GitHub.
-- Vnk™ is used to install the Vubuntu™ desktop.
+- Vrk™ can be installed from the separate inkVerb/vrk repository of  on GitHub.
+- Vrk™ is used to install the Vubuntu™ desktop.
 
 ##### .vnk/.vink file type (beta)
 - The .vink file extension is an empty file that you can train your operating systems to open with a simple text editor or Dropbox can easily export to a text editor.
