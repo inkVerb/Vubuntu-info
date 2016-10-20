@@ -17,11 +17,11 @@ mv oldfileordirname newfileordirname #changes the name of a file or directory to
 ls #list the contents of a directory (directories, files, links)
 ln -s originalfile/or/path/to/file newlinklocationandname/orpath/to/file #creates a link (path to new link is optional, if not specified, a link with the same name will appear in the current directory)
 
-#tarball files have many extensions: .tar .gz .bz2 .....
+# tarball files have many extensions: .tar .gz .bz2 .....
 tar vjxf tarballfiletountar.tar.bz2
-#zip has its own commands and must be installed
+# zip has its own commands and must be installed
 
-#vim
+# vim
 vim file to edit #edits a file with vim
 i #insert or "edit" mode
 Esc #exit from insert mode
@@ -29,17 +29,25 @@ Esc #exit from insert mode
 :q! #quit without saving if changes
 :wq #save and quit
 
-#nano
+# nano
 nano filetoedit #edits a file with nano
-#nano lists the commands, using Ctrl+ letters. on quitting and saving, it will ask you the file to save as.
+# nano lists the commands, using Ctrl+ letters. on quitting and saving, it will ask you the file to save as.
 
-
-#scroll lock
+# scroll lock
 xmodmap -e 'add mod3 = Scroll_Lock' 
 
 # system info
 lspci
 lshw
+lsb_release -a
+uname -romi
+
+# Windows/NTFS issues
+## ntfsfix
+### Fix device (hard drive) sdb1
+sudo ntfsfix /dev/sdb1
+### Fix device (hard drive) sdb1 with clear "dirty" flag on the partition
+sudo ntfsfix -d /dev/sdb1
 
 # dconf GUI editor
 dconf-editor
