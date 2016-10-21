@@ -10,6 +10,9 @@ ps aux | grep gcin
 sudo apt-get purge ibus
 ## sudo reboot
 
+# Problems??  Bopomofo, no Chinese??
+# Install language packs:
+sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
 
 
 ### Sources
