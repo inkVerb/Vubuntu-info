@@ -12,7 +12,9 @@ http://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 
 https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts
 
-It is best to fix the problem in Windows:
+It is best to fix the problem in Windows.
+
+# Fix the problem in Windows:
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
 (or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
@@ -27,7 +29,7 @@ It is best to fix the problem in Windows:
 
 `sc config w32time start= disabled`
 
-Un-change Windows:
+# Un-fix the problem in Windows:
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
 (or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
