@@ -17,6 +17,7 @@ It is best to fix the problem in Windows.
 # Fix the problem in Windows:
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
+
 (or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
 
 `Windows Registry Editor Version 5.00`
@@ -32,12 +33,15 @@ It is best to fix the problem in Windows.
 # Un-fix the problem in Windows:
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
+
 (or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
 
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=-`
 
-2. Run command prompt as admin and type this:
+2. Double click on it in Windows
+
+3. Run command prompt as admin and type this:
 
 `sc config w32time start= demand`
