@@ -18,6 +18,7 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 `setufwip` `setport` `setswapsize` `showverber`
 
 - For restoring from a snapshot:
+
 `setlocale`
 
 #### Email server
@@ -26,13 +27,19 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 `backupemail`/`backupemailrestore`
 
+#### MySQL
+
+`mysqldbusr` `mysqlnewdb` `mysqlex`/`mysqlin` `mysqlnewboss` `mysqlboss`
+
+`installphpmyadmin` Requires .guru
+
 #### Domain management
 
 ##### Hosted domains
 
 `newdomain`/`newdomaincgi`/`killdomain` `addsubdomain`/`addsubdomaincgi`/`killsubdomain` `changedomcgitodom`/`changedomtodomcgi` 
 
-`pointdomain` `fixwww`
+`pointdomain` `fixwww` `showinkdkim`
 
 ##### inkVerb namespace domains
 
@@ -42,11 +49,8 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 `verbon` `verboff`
 
-#### MySQL
-
-`mysqldbusr` `mysqlnewdb` `mysqlex`/`mysqlin` `mysqlnewboss` `mysqlboss`
-
 #### .guru services
+
 `newserverguru`
 
 ##### FTP
@@ -56,17 +60,19 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 `adddomainfiler` `activatefiles` `activaterepo` `newftpuser`/`killftpuser` `newftpfiler`/`adddomainfiler`/`killftpfiler` `newftpguru`/`killftpguru`
 
+##### net2ftp
+
+`installnet2ftp`
+
 ##### CGI
 
-`installcgi` # Necessary to initiate
+`installcgi` Turns on cgi.YOU.verb.guru
 
-- Related
-
-`activatecgi` # Turns cgi.YOU.verb.guru on and off
+`activatecgi` Turns cgi.YOU.verb.guru on and off
 
 ##### Fossil SCM
 
-`installfossil`
+`installfossil`/`installgurufossil`
 
 `newfossil` `newfossiluser` `newfossilpass`
 
@@ -88,6 +94,10 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 - For .ink blogs
 
 `installwpinkbb` `installwpinkblog`
+
+- For InfiniteWP
+
+`installiwpser`
 
 #### Drupal
 
@@ -111,23 +121,42 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 `installghostinkblog`
 
+#### October
+
+- For domains
+ 
+`installoctober`
+ 
+- For .ink blog
+
+`installoctoberinkblog`
+
+#### MediaWiki
+
+`installmediawiki`/`postinstallmediawiki`
+
+### .kiwi
 #### Ampache
-.kiwi
+
 `installampache` `ampachepodcast`
 
+### .blue
 #### ownCloud
-.blue
+
+`installowncloud`
 
 #### Pydio
-.blue
+
+`installpydio`
 
 ### .red
 #### SuiteCRM
 
-`postinstallscrm`
+`installsuitecrm`/`postinstallscrm`
 
 #### OrangeHRM
 
+`installorangehrm`
 
 ### inkVerb special service
 These have a flow of their own, are generally used as dependencies, and you should follow their flow to learn more
