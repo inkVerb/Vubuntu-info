@@ -1,4 +1,4 @@
-Ubuntu bases its time off of UTC, closer to the essential operation of your system, so your machine stays to date if you move or daylight saving time happens in your sleep.
+Ubuntu bases its time off of UTC, closer to the essential operation of your system, so your machine's time stays to date if you move or daylight saving time happens in your sleep.
 
 Windows writes it locally to your computer and manages the time zone through its own servers.
 
@@ -12,7 +12,7 @@ http://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 
 https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts
 
-It is generally advisable to fix the problem in Windows. Fixing it in Ubuntu is easy, but daylight saving time and updates will break. This may not work in "older" versions of Windows. Read the above articles for the scoop. Here is the Verber's Digest version:
+It is generally advisable to fix the problem in Windows. Fixing it in Ubuntu is easy, but daylight saving and time updates will break. This may not work in "older" versions of Windows. Read the above articles for the scoop. Here is the Verber's Digest version:
 
 # Fix the problem in Windows:
 
