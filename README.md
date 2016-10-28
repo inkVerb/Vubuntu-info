@@ -11,11 +11,11 @@ Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placehol
 inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
 
 ### About Vubuntu™
-Vubuntu™ is an Ubuntu extension project with three parts:
+Vubuntu™ is an Ubuntu extension project with three branches:
 
-1. Verber™: Web server scripts
-2. Vrk™: Local workstation (desktop, notebook, tablet, etc.) with scripts and to link easily to a Verber™ server
-3. Vubuntu™ Desktop (scripts to install commonly used apps and settings on a workstation.)
+1. Verber™ Server: Controllable cloud (LAMP server with scripts for routine tasks)
+2. Vrk™ Station: Local workstation (desktop, notebook, tablet, etc.) to easily link and control a Verber™ Server
+3. Vubuntu™ Desktop: Cloud control for humans (scripts to install commonly used apps and settings on a workstation.)
 
 #### Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
@@ -31,7 +31,7 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 - Apps currently include a Postfix/Dovecot server, PostfixAdmin, RoundCube, WordPress (with recipies!), ownCloud, SuiteCRM, OrangeHRM, Fossil-SCM, phpMyAdmin, Ghost, Ampache, SFTP accounts, net2FTP, and lots more to come!
 
 ##### Dependencies
-- inkVerb™ namespace: subdomain for verb.ink, verb.email, verb.one, verb.blue, verb.guru, verb.kiwi, verb.red (available for $12/year, the Verber™ serfs use these to sort-out and access different apps, each domain can be a different server at the same price!)
+- inkVerb™ namespace: subdomain for verb.ink, verb.email, verb.one, verb.blue, verb.guru, verb.kiwi, verb.red, verb.rocks, verb.uno (available for $12/year, the Verber™ serfs use these to sort-out and access different apps, each domain can be a different server at the same price!)
 - An in-app repository from inkVerb to install approved versions of some open-source apps (inkVerb™ handles this)
 - A "controllable" web server, (not cute or 'unlimited' hosting from a cheap hosting provider) with the ability to install your own features, run scripts on the server, and manually edit settings files such as PHP, Apache, etc. inkVerb™ uses DigitalOcean ;-)
 
@@ -40,16 +40,17 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 - You do not need to write the "TM" ™ after our words like we do, we're just watching out for the sharks. :-)
 - You can support the project by purchasing an inkVerb™ namespace, which will point to the IP on whatever server you choose, including MX and TXT records (for OpenDKIM), or while the project is in Beta you need to choose your own DNS to manage the DNS records yourself.
 
-#### Vrk™ workstation
-The work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office.
-Vrk™ (pronounced 'verk' as in 'work') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows.
+#### Vrk™ Station
+The local work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office. You don't need a Verber for your Vrk Station to control, *but you want one...*
+
+Vrk™ (pronounced 'verk' as in 'work') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows. While a Verber has "serf" bash scripts for its kingdom, a Vrk Station is less in the sky and calls them "surfers".
 
 It creates that extra "Work" folder everyone has a different name for, syncs "Documents" in your cloud across devices so you'll actually use it, lets you add your own wallpapers to the "official" selection list, and a lot more.
 
 ##### How to install:
 Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 
-1. Install _ubuntu
+1. Install your Ubuntu distro
 2. Ctrl + Alt + T
 
 `sudo apt install git`
