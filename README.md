@@ -9,7 +9,7 @@ Vubuntu™ is an Ubuntu extension project with three parts:
 
 1. Verber™: Web server scripts
 2. Vrk™: Local workstation (desktop, notebook, tablet, etc.) with scripts and to link easily to a Verber™ server
-3. Vubuntu™ desktop (scripts to install commonly used apps and settings on your workstation.)
+3. Vubuntu™ Desktop (scripts to install commonly used apps and settings on a workstation.)
 
 #### Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
