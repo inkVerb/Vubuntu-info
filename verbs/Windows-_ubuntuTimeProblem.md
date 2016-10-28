@@ -18,12 +18,12 @@ It is best to fix the problem in Windows.
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
 
-(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
-
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=dword:00000001`
-     
+
+(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
+
 2. Double click on it in Windows
 
 3. Run command prompt as admin and type this:
@@ -34,11 +34,11 @@ It is best to fix the problem in Windows.
 
 1. Create "WindowsTimeFixUTC.reg" with this in it:
 
-(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
-
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=-`
+
+(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
 
 2. Double click on it in Windows
 
