@@ -45,3 +45,5 @@ Create "WindowsTimeUnFixUTC.reg" with this in it:
 2. Run command prompt as admin and type this:
 
 `sc config w32time start= demand`
+
+...Everything above is at your own risk. Then, again, so is using Windows.
