@@ -2,7 +2,11 @@
 ## Ubuntu + inkVerb
 *Settings, installs, and files for _ubuntu*
 
+### Note:
+
 Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
+
+Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placeholder for information and *the future...*
 
 ### About Vubuntu™
 Vubuntu™ is an Ubuntu extension project with three parts:
