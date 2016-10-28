@@ -12,7 +12,7 @@ http://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 
 https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts
 
-It is best to fix the problem in Windows.
+It is generally advisable to fix the problem in Windows. Fixing it in Ubuntu is easy, but daylight saving time and updates will break. This may not work in "older" versions of Windows. Read the above articles for the scoop. Here is the Verber's Digest version:
 
 # Fix the problem in Windows:
 
