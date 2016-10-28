@@ -4,10 +4,12 @@ Windows writes it locally to your computer and manages the time zone through its
 
 Windows' method is a bit more nanny-ish, Ubuntu's is more straight forward. But, they confuse each other and Windows won't know what time it really is with the more self-reliant Ubuntu installed on the same machine.
 
-Here are some articles that explain what to do, in order of simplicity:
+Here are some articles that explain what to do, which are the basis for this redaction, in order of simplicity:
 
 http://www.webupd8.org/2014/09/dual-boot-fix-time-differences-between.html
+
 http://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
+
 https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts
 
 It is best to fix the problem in Windows:
