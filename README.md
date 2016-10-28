@@ -96,6 +96,8 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 1. Get your Ubuntu 16+ LTS VPS going, probably on Digital Ocean, NOT a LAMP server!
 2. Get into your command line as root...
 
+Note: make-verber-preserver, make-verber, and setupverb have instructions and examples at the start of each file. Use vim or nano to see them. They delete themselves after running because you only need them once.
+
 `apt install git`
 
 `cd /var/local`
@@ -119,7 +121,7 @@ Get these settings in brackets exact the first time. See longer description belo
 
 `./setupverb [host] [namespace] [tld] [serverIP] [SSLemail] [php.file-limit] [php.up-size] [php.region] [php.city] [new-port] [new-boss] [boss-pass]`
 
-Longer description:
+Longer description for setupverb settings:
 
 [host - should be namespace or FQDN tld, unless you want to be strange]
 
