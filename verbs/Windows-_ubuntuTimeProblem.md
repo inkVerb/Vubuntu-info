@@ -2,7 +2,7 @@ Ubuntu bases its time off of UTC, closer to the essential operation of your syst
 
 Windows writes it locally to your computer and manages the time zone through its own servers.
 
-Window's method is a bit more nanny-ish, Ubuntu's is more straight forward. But, they confuse each other and Windows won't know what time it is.
+Windows' method is a bit more nanny-ish, Ubuntu's is more straight forward. But, they confuse each other and Windows won't know what time it really is with the more self-reliant Ubuntu not needing nannied on the same machine.
 
 Here are some articles that explain what to do, in order of simplicity:
 
