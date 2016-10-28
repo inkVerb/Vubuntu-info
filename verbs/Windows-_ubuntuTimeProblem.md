@@ -16,12 +16,12 @@ It is best to fix the problem in Windows.
 
 # Fix the problem in Windows:
 
-1. Create "WindowsTimeFixUTC.reg" with this in it:
+Create "WindowsTimeFixUTC.reg" with this in it:
 
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=dword:00000001`
-(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
+(or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
 
 2. Double click on it in Windows
 
@@ -31,12 +31,12 @@ It is best to fix the problem in Windows.
 
 # Un-fix the problem in Windows:
 
-1. Create "WindowsTimeFixUTC.reg" with this in it:
+Create "WindowsTimeFixUTC.reg" with this in it:
 
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=-`
-(or here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
+(or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
 
 2. Double click on it in Windows
 
