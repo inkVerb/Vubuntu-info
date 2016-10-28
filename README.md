@@ -103,4 +103,4 @@ One really cool thing: Vubuntu sets a "root" theme. So, when you sudo a desktop 
 - You might consider installing Vubuntu™ before installing Ubuntu Studio, if you want to install all of Ubuntu Studio. Since many larger apps are included in Vubuntu™ Desktop, your Ubuntu Studio install time will be shorter.
 - Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro that could be installed via unetbootin & USB.
 
-inkVerb and Canonical are NOT associated, but they outta be and Canonical is awesome anyway.
+inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
