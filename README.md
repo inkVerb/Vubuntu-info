@@ -94,7 +94,7 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 ##### How to install
 
 1. Get your Ubuntu 16+ LTS VPS going, probably on Digital Ocean, NOT a LAMP server!
-2. Get into your command line as root
+2. Get into your command line as root...
 
 `apt install git`
 
@@ -108,11 +108,11 @@ Automating "cloud control" work on the hosting server speeds up work and reduces
 
 `reboot`
 
-login as root again
+Login again as root...
 
 `cd verb/inst`
 
-choose the setting in brackets, "2" is probably good enough unless you have a reason to disagree
+Choose the setting in brackets, "2" is probably good enough unless you have a reason to disagree...
 `./make-verber [swap-size, choose GB: 1, 2, 4, 8, 16, 32, 64]`
 
 Get these settings in brackets exact the first time. See longer description below...
