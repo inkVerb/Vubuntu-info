@@ -43,7 +43,7 @@ It creates that extra "Work" folder everyone has a different name for, syncs "Do
 Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 
 1. Install _ubuntu
-2. Get the known universe moving
+2. Ctrl + Alt + T
 
 `sudo apt install git`
 
@@ -76,7 +76,7 @@ It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu
 ##### How to install:
 
 1. Install Vrk (above)
-2. ...
+2. Ctrl + Alt + T
 
 `cd .vrk/surf`
 
