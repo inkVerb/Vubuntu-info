@@ -147,6 +147,12 @@ Longer description for setupverb settings:
 
 [boss user password]
 
+##### How to use:
+
+See READ.ME
+
+Then, use this cheat-sheet: https://github.com/inkVerb/Vubuntu/blob/master/Verber-overview.md
+
 ##### Features
 - Email, web app hosting, all on one, simple server. (Of course you can have multiple servers.)
 - Easily host domains on the same server.
