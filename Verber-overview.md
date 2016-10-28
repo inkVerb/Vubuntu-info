@@ -66,7 +66,9 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 ##### CGI
 
-`installcgi` Turns on cgi.YOU.verb.guru
+*See other inkVerb and Domain management for CGI websites*
+
+`installcgi` Initiates cgi.YOU.verb.guru the first time
 
 `activatecgi` Turns cgi.YOU.verb.guru on and off
 
