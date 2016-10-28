@@ -10,26 +10,49 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 ### Services
 
+#### SSH, Users, & Server Maintenance
+*See the .guru section for many more users*
+
+`newboss` `rootloginoff`
+
+`setufwip` `setport` `setswapsize` `showverber`
+
+- For restoring from a snapshot:
+`setlocale`
+
 #### Email server
 
-- Do all of it at once:
+`installemail`/`setpfapass` `postinstallpfa`/`postinstallrc` 
 
-`installemail`
+`backupemail`/`backupemailrestore`
 
 #### Domain management
 
 ##### Hosted domains
 
+`newdomain`/`newdomaincgi`/`killdomain` `addsubdomain`/`addsubdomaincgi`/`killsubdomain` `changedomcgitodom`/`changedomtodomcgi` 
+
+`pointdomain` `fixwww`
+
 ##### inkVerb namespace domains
 
+`newgurusub`/`newgurusubcgi` `newonesub`/`newonesubcgi` `newunosub`/`newunosubcgi` `newverbsub`
+
+`pointguru` `pointone` `pointuno` `pointink`
+
+`verbon` `verboff`
+
+#### MySQL
+
+`mysqldbusr` `mysqlnewdb` `mysqlex`/`mysqlin` `mysqlnewboss` `mysqlboss`
+
 #### .guru services
+`newserverguru`
 
 ##### FTP
 *This really is necessary for .guru services to be useful*
 
 `installvsftpd`
-
-- Related
 
 `adddomainfiler` `activatefiles` `activaterepo` `newftpuser`/`killftpuser` `newftpfiler`/`adddomainfiler`/`killftpfiler` `newftpguru`/`killftpguru`
 
@@ -45,15 +68,28 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 
 `installfossil`
 
-
+`newfossil` `newfossiluser` `newfossilpass`
 
 ### Web Apps
 
+#### Verber app management
+`backup` `backuprestore`/`backuprestoreowncloud` `killvapp`
+
+### .ink, domains
+
 #### WordPress
-.ink, domains
+
+`wpadd` `wpautoupdateoff` `wpsecure` `wplinkdomain`/`wpunlinkdomain`
+
+- For domains
+
+`installwp` 
+
+- For .ink blogs
+
+`installwpinkbb` `installwpinkblog`
 
 #### Drupal
-.ink, domains
 
 - For domains
 
@@ -66,11 +102,18 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 `showdrupaldistroes`
 
 #### Ghost
-.ink, domains
+
+- For domains
+
+`installghostsite`
+
+- For .ink blog
+
+`installghostinkblog`
 
 #### Ampache
 .kiwi
-`installampache`
+`installampache` `ampachepodcast`
 
 #### ownCloud
 .blue
@@ -78,11 +121,13 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 #### Pydio
 .blue
 
+### .red
 #### SuiteCRM
-.red
+
+`postinstallscrm`
 
 #### OrangeHRM
-.red
+
 
 ### inkVerb special service
 These have a flow of their own, are generally used as dependencies, and you should follow their flow to learn more
