@@ -1,4 +1,4 @@
-Ubuntu bases its time off of UTC, closer to the essential operation of your system, so you stay to date if you move and for daylight saving.
+Ubuntu bases its time off of UTC, closer to the essential operation of your system, so your machine stays to date if you move or daylight saving time happens in your sleep.
 
 Windows writes it locally to your computer and manages the time zone through its own servers.
 
