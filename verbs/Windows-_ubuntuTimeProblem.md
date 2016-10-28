@@ -21,25 +21,27 @@ Create "WindowsTimeFixUTC.reg" with this in it:
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=dword:00000001`
+
 (or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
 
-2. Double click on it in Windows
+1. Double click on WindowsTimeFixUTC.reg in Windows
 
-3. Run command prompt as admin and type this:
+2. Run command prompt as admin and type this:
 
 `sc config w32time start= disabled`
 
 # Un-fix the problem in Windows:
 
-Create "WindowsTimeFixUTC.reg" with this in it:
+Create "WindowsTimeUnFixUTC.reg" with this in it:
 
 `Windows Registry Editor Version 5.00`
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=-`
+
 (or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
 
-2. Double click on it in Windows
+1. Double click on WindowsTimeUnFixUTC.reg in Windows
 
-3. Run command prompt as admin and type this:
+2. Run command prompt as admin and type this:
 
 `sc config w32time start= demand`
