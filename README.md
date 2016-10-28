@@ -44,6 +44,7 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 
 1. Install _ubuntu
 2. Get the known universe moving
+
 `sudo apt install git`
 `cd ~`
 `git clone https://github.com/inkVerb/vrk.git`
@@ -72,6 +73,7 @@ It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu
 
 1. Install Vrk (above)
 2. ...
+
 `cd .vrk/surf`
 `sudo ./installvubuntu`
 
