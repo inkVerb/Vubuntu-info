@@ -8,6 +8,8 @@ Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
 
 Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placeholder for information and *the future...*
 
+inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
+
 ### About Vubuntu™
 Vubuntu™ is an Ubuntu extension project with three parts:
 
@@ -106,5 +108,3 @@ One really cool thing: Vubuntu sets a "root" theme. So, when you sudo a desktop 
 - It automatically adds a Docky dock and Guake for startup, already configured
 - You might consider installing Vubuntu™ before installing Ubuntu Studio, if you want to install all of Ubuntu Studio. Since many larger apps are included in Vubuntu™ Desktop, your Ubuntu Studio install time will be shorter.
 - Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro that could be installed via unetbootin & USB.
-
-inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
