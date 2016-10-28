@@ -6,7 +6,7 @@
 
 Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
 
-Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placeholder for information and *the future...*
+Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placeholder for information, related how-to scripts, and *the future...*
 
 inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
 
@@ -22,7 +22,7 @@ The local work station side of this project contains install scripts, links, and
 
 Vrk™ (pronounced 'verk' as in 'work') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows. While a Verber has "serf" bash scripts for its kingdom, a Vrk Station is less in the sky and calls them "surfers".
 
-It creates that extra "Work" folder everyone has a different name for, syncs "Documents" in your cloud across devices so you'll actually use it, lets you add your own wallpapers to the "official" selection list, and a lot more.
+It creates that extra "Work" folder everyone has a different name for, syncs "Documents" in your favorite cloud across devices so you'll actually use it, lets you add your own wallpapers to the "official" selection list, and a lot more.
 
 ##### How to install:
 Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
@@ -40,7 +40,7 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 
 `sudo ./setupvrk`
 
-##### Vrk™ feathres:
+##### Vrk™ features:
 - Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vrk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
 - Vrk™ includes a "Templates" folder with some common starter documents and files.
 - It has scripts to quickly add Guake Indicator profiles, SSH keys and credentials, and install the lated ownCloud with repos
