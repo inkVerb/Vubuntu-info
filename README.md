@@ -1,6 +1,6 @@
 # Vubuntu™
 ## Ubuntu + inkVerb
-*Settings, installs, and files for _ubuntu*
+*Settings, installs, interface, and cloud control for _ubuntu*
 
 ### Note:
 
