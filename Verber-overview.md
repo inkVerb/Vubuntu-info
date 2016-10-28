@@ -54,7 +54,7 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 `newserverguru`
 
 ##### FTP
-*This really is necessary for .guru services to be useful*
+*This really is necessary for .guru services to be useful, which is required for .one, .uno, backups, and other services*
 
 `installvsftpd`
 
@@ -159,6 +159,8 @@ All jobs are in verb/serfs. Each serf has the purpose, instructions, and example
 #### OrangeHRM
 
 `installorangehrm`
+
+### .one, .uno, .rocks - These can be anything and are controlled via FTP users, see .guru services
 
 ### inkVerb special service
 These have a flow of their own, are generally used as dependencies, and you should follow their flow to learn more
