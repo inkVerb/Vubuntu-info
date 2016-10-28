@@ -41,15 +41,14 @@ It creates that extra "Work" folder everyone has a different name for, syncs "Do
 
 ##### How to install:
 Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
+
 1. Install _ubuntu
 2. Get the known universe moving
-`
-sudo apt install git
-cd 
-git clone https://github.com/inkVerb/vrk.git
-cd vrk/inst
-sudo ./setupvrk
-`
+`sudo apt install git`
+`cd ~`
+`git clone https://github.com/inkVerb/vrk.git`
+`cd vrk/inst`
+`sudo ./setupvrk`
 
 ##### Vrk™ feathres:
 - Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vrk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
@@ -70,12 +69,11 @@ sudo ./setupvrk
 It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu is your V-6, under the hood, getting the engine ship-shape no matter which desktop environment you want... GNOME, Unity, Xfce, KDE, Mint...
 
 ##### How to install:
+
 1. Install Vrk (above)
 2. ...
-`
-cd .vrk/surf
-sudo ./installvubuntu
-`
+`cd .vrk/surf`
+`sudo ./installvubuntu`
 
 ##### What "is" it?
 *Vubuntu Desktop* has an installer included with Vrk™. It is not an "environment"; it's a set of install scripts that does what most users might do anyway for the first two or three hours after installing Ubuntu, all automated. If you have a cloud folder in your /home folder, after installing Vrk™ and Vubuntu Desktop, you might be all set to go.
