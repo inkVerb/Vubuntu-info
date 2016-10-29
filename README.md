@@ -167,7 +167,7 @@ Longer description for setupverb settings:
 
 ##### How to use:
 
-See READ.ME
+See vrk/README.md
 
 Then, use this cheat-sheet: https://github.com/inkVerb/Vubuntu/blob/master/Verber-overview.md
 
@@ -201,6 +201,6 @@ All the while this is going on, I thought, "I should write my own CMS editor. Ra
 
 As for all the little bash scripts that piled up—I put them in the "verb" directory. From there, it was an unintended construction site. By the time 16.04 LTS came out, I had fully automated the entire installation process for the entire server. One-command app installs, ownCloud, Pydio, WP, Ghost, Drupal, SuiteCRM, OrangeHRM, Ampache, Roundcube, PostfixAdmin, MediaWiki, who knows what else, and Letsencrypt just arriving on the scene... It was what every copywriter and entrepreneur needed.
 
-The last step was to get a server-to-server system for internal SSL CA purposes, one-click spinups, and my own stable release channel. (Why don't most developers learn from WordPress and just have a "latest.zip" package with the version number in the READ.ME?) If I'm lucky, I'll be able to set up an SSL Cert Authority for servers using the Verber scripts. But, that's future.
+The last step was to get a server-to-server system for internal SSL CA purposes, one-click spinups, and my own stable release channel. (Why don't most developers learn from WordPress and just have a "latest.zip" package with the version number in the README.md?) If I'm lucky, I'll be able to set up an SSL Cert Authority for servers using the Verber scripts. But, that's future.
 
 The plan as of 2016 Q4 was to survive America's election and start on a GUI so more people can use what I spent two years unintentionally making on the backend. Thanks, Andy Bucher, for jabbering about Linux in high school. I'm sure we'll meet again in the clouds. In the meanwhile, I have some inking to get to.
