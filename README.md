@@ -6,7 +6,7 @@
 
 Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
 
-Vubuntu Desktop is installed via the "inkVerb/vrk" repo. This repo is a placeholder for information, related how-to scripts, and *the future...*
+Vubuntu Desktop and Vubuntu Studio Lite are installed via the "inkVerb/vrk" repo. This for information, related how-to scripts, and *the future...*
 
 inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
 
@@ -18,11 +18,11 @@ Vubuntu™ is an Ubuntu extension project with three branches:
 3. Verber™ Server: Controllable cloud (LAMP server with scripts for routine tasks)
 
 #### 1. Vrk™ Station
-The local work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and office. You don't need a Verber for your Vrk Station to control, *but you want one...*
+The local work station side of this project contains install scripts, links, and desktop backgrounds for humans computing at home and the office. You don't need a Verber for your Vrk Station to control, *but you want one...*
 
-Vrk™ (pronounced 'verk' as in 'work') contains several scripts to perform jobs and settings that normally require a little more knowledge than the average user knows. While a Verber has "serf" bash scripts for its kingdom, a Vrk Station is less in the sky and calls them "surfers".
+Vrk (pronounced 'verk' as in 'work') contains several scripts to control jobs and settings that normally require a little more knowledge than the average user has and can take a lot more time than any webmaster has. A Verber has "serf" bash scripts for its kingdom, a Vrk Station is more down to earth and calls them "surfers".
 
-It creates that extra "Work" folder everyone has a different name for, syncs "Documents" in your favorite cloud across devices so you'll actually use it, lets you add your own wallpapers to the "official" selection list, and a lot more.
+Vrk creates that extra "Work" folder everyone has a different name for, syncs "Documents" in your favorite cloud across devices so you'll actually use it, lets you add your own wallpapers to the "official" selection list, and a lot more.
 
 ##### How to install:
 Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
@@ -68,24 +68,42 @@ It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu
 `sudo ./installvubuntu`
 
 ##### What "is" Vubuntu™ Desktop?
-*Vubuntu Desktop* has an installer included with Vrk™. It is not an "environment"; it's a set of install scripts that does what most users might do anyway for the first two or three hours after installing Ubuntu, all automated. If you have a cloud folder in your /home folder, after installing Vrk™ and Vubuntu Desktop, you might be all set to go.
+*Vubuntu Desktop* is included with Vrk™. It is not an "environment"; it's a set of install scripts that does what most users might do anyway for the first two or three hours after installing Ubuntu, but it's all automated.
 
-Vubuntu includes some desktop themes and wallpapers, mostly minimalist for studios and in the booth.
+Vubuntu Desktop includes desktop, theme, and wallpapers settings, mostly minimalist for studios and in the booth. It includes the "Vubuntu Studio Lite" toned-down recipe of Ubuntu Studio apps and common desktop tools.
 
-It detects your environment and makes some no-brainer "Tweaks" in Unity, Xfce, and GNOME to make them less unbearable (in order of unbearableness,) but is more hands-off for KDE, Mint, and the rest (since those users tend to be more opinionated.)
+Vubuntu Desktop detects your environment and makes several no-brainer "Tweaks" in Ubuntu (Unity), and just a few in Xfce and GNOME, to make them less unbearable, but is more hands-off for KDE, Mint, and other environments that cater to GUI connoisseurs.
 
-Alt + rClick to resize windows, default dark minimal themes and flat icons, simple "creative space" wallpapers from inkVerb and Ubuntu Studio, Docky and Guake on startup... it's all setup.
+Alt + rClick to resize windows, default dark minimal themes and flat icons, simple "creative space" wallpapers from inkVerb and Ubuntu Studio, Docky and Guake on startup... Vubuntu automatically makes icons visible once again in menues for Unity and GNOME. It can even set a "root" theme, so, when you sudo a desktop app, i.e. sudo nautilus, it looks different from all other windows... It's all set up for you by Vubuntu Desktop's install script. If you have a cloud folder and a USB with former Ubuntu settiongs (Vrk backs those up to USB also,) after installing Vrk™ and Vubuntu Desktop, your _ubuntu installation will be setup in a snap.
 
-One really cool thing: Vubuntu sets a "root" theme. So, when you sudo a desktop app, i.e. sudo nautilus, it looks a bit Valley-ish. root changes the prompt, it should change the theme also.
+Ink is a verb. So, don't waste time fixing OOB settings. Vrk will do the work so you can get inking.
 
-##### Types of features installed (may vary)
+(out of box)
+
+##### Vubuntu™ Studio Lite apps
+
 - Chromium, Docky, FileZilla, Midori, Epiphany Browser (if you have GNOME) Guake (with Indicator), Gedit, Libre Office, fonts galore, GIMP (with plugins), Inkscape, Audacity (with Chris' compressor), Audio Tag Tool, LMMS, Ardour, Blender, Darktable, Kdenlive, Flash, GNOME and Ubuntu Studio desktop goodies, Clementine, Amarok (most podcast-friendly), VLC (and friends), Stellarium, Dropbox, Skype, Linux low-latency, and tools like GParted, git, vim, zip, 7zip, etc.
-- The above apps, and a few more, are installed in small clusters in case you have slow Internet and can't download it all in one session.
+- The above apps, and a few more, are installed in small clusters. In case you have slow Internet and can't download it all in one session, you can pick up closer to where you left off.
 - Interactive install packages (MS fonts & Jackd) run first so you can quickly agree to EULA and settings, then walk away.
-- It runs a script to automatically make icons visible in menues for Ubuntu (Unity) and GNOME.
-- It automatically adds a Docky dock and Guake for startup, already configured
-- You might consider installing Vubuntu™ before installing Ubuntu Studio, if you want to install all of Ubuntu Studio. Since many larger apps are included in Vubuntu™ Desktop, your Ubuntu Studio install time will be shorter.
-- Planned: Vubuntu™ eventually plans to be an easily-installed Ubuntu distro that could be installed via unetbootin & USB.
+- Installing Vubuntu Desktop's "Studio Lite" first makes Ubuntu Studio install more smoothely. (Vrk has an Ubuntu Studio install script also, but doesn't change the desktop environment.)
+
+##### Planned
+Vubuntu™ eventually plans to be an Ubuntu distro that could be installed via unetbootin & USB. But, that is "very eventually".
+
+##### Thoughts and backstory, from Jesse
+
+GNOME is awesome for working at a desk, but it has issues: It doesn't handle large copy operations well, the top corner dash doesn't always work, and 64_ARM gives the same sluggish crash report on every startup. It's best for an old i386 in the shop where most of your projects actually happen.
+
+Unity is a lot more stable than GNOME, and it's from Canonical and is intended for the OS. But if we wanted to look at the same ten icons all day we would use Windows, and "can't catch me" notifications exist nowhere else in the known metaverse—the Post Office, Gmail, mom, Xfce and all other Ubuntu desktops—all else lets you acknowledge messages, but not Unity. And gradiants require too much serotonin to look at while your counting pixels for a logo. The Vubuntu Desktop script fixed this.
+
+Xfce, speaking of gradiants, is very VERY minimalist. So, it's ideal for work in the live booth. Dark desktop themes are good for that, enter Cyanogen inspired theming. (wink, grin) Graybird, Numix, and darkness is good OOB where stability via simplicity is a marketable need.
+
+KDE, in short: Too much fiberglass on wooden chasis. They have the stability-pioneering balance of BMW, always in the fray. If it manages to be stable and play well with others, then there isn't really anything to change. But, it won't be in the live booth anytime soon... until the Antagonist loses his job trying to prove otherwise. Kubuntu has a lot of uses, beyond mom and the art class, which is why many of its settings are included in Vrk's USB backup settings script.
+
+Mint was my first Ubuntu install back in the 13.04 days. Haven't done much since. But, its desktop is geared to work OOB. And, that's probably the main angle of most other distros. So, I don't mess.
+
+###### You can add for other distros
+I don't have time to try them all. I've been too busy inking. Feel free to pull-request a good setting script in the installvubuntu-desktop surfer for your favorite Desktop. If you have 1. the $DESKTOP_SESSION if test 2. stay within style and scope of the other desktop-specific settings, I will probalby include it. Note, only Unity gets so elaborate because only Unity needs to. If you think another desktop env should be included elaborately, tell me why in the notes and I'll learn from you.
 
 #### 3. Verber™ Web/Email server "cloud control" app engine for hosting
 This part of the project contains several bash scripts called "serfs" that automatically set parameters, install, control, and manage web apps from the command line. Each serf contains instructions within the file.
@@ -170,3 +188,19 @@ Then, use this cheat-sheet: https://github.com/inkVerb/Vubuntu/blob/master/Verbe
 - You may modify these scripts for your own use, of course, remake it so it does not depend on "verb" domains or the inkVerb repository. This is part of the open license.
 - You do not need to write the "TM" ™ after our words like we do, we're just watching out for the sharks. :-)
 - You can support the project by purchasing an inkVerb™ namespace, which will point to the IP on whatever server you choose, including MX and TXT records (for OpenDKIM), or while the project is in Beta you need to choose your own DNS to manage the DNS records yourself.
+
+##### Verber origin, from Jesse
+
+Digital Ocean was doing their Google ad campaign back around 2014. I was tired of my registrar-host. The voice in my head said, "Give it a try." I was still expirimenting with Ubuntu on my Windows 8 book, the first of its kind. I didn't really have a reason for it all. Learning Ubuntu was just a matter of character. "Who I am" demanded that I try this particular thing that particular friends of mine talked about.
+
+Needless to say, Ubuntu LAMP on Digital Ocean ran all my WordPress sites rather well. I started designing in a makeshift Xubuntu Studio install, since unetbootin couldn't do U-Studio on my machine. I started playing with ownCloud, as if I didn't have enough reasons for headaches. Buggy, but they are getting their vapors in a group. Eventually, I hit that epiphany moment when I realized that the file system on my notebook was the same on my Ubuntu server. That was just after I spend a week trying to get Ex Ratione's Postfix Admin - Roundcube email server working. I finally got it right and made a snapshot. A year Digital Ocean caught on and started billing for snapshots, smart them.
+
+After a while, I realized there were many things I kept doing again and again. I didn't like taking an entire day to set up a "Hillarymail" server and risking one semi-colon messing everything up. That was when I started "bashing". It literally got me to a place where I won't make one, single change on my servers without writing a script to do it. They started piling up.
+
+All the while this is going on, I thought, "I should write my own CMS editor. Rather than 'New post', I should just have a pen and call the hover 'Ink.' Ink is a verb, after all." Registrar search, verb.ink, and the rest was history.
+
+As for all the little bash scripts that piled up—I put them in the "verb" directory. From there, it was an unintended construction site. By the time 16.04 LTS came out, I had fully automated the entire installation process for the entire server. One-command app installs, ownCloud, Pydio, WP, Ghost, Drupal, SuiteCRM, OrangeHRM, Ampache, Roundcube, PostfixAdmin, MediaWiki, who knows what else, and Letsencrypt just arriving on the scene... It was what every copywriter and entrepreneur needed.
+
+The last step was to get a server-to-server system for internal SSL CA purposes, one-click spinups, and my own stable release channel. (Why don't most developers learn from WordPress and just have a "latest.zip" package with the version number in the READ.ME?) If I'm lucky, I'll be able to set up an SSL Cert Authority for servers using the Verber scripts. But, that's future.
+
+The plan as of 2016 Q4 was to survive America's election and start on a GUI so more people can use what I spent two years unintentionally making on the backend. Thanks, Andy Bucher, for jabbering about Linux in high school. I'm sure we'll meet again in the clouds. In the meanwhile, I have some inking to get to.
