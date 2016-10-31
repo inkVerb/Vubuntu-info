@@ -14,7 +14,7 @@ inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
 Vubuntu™ is an Ubuntu extension project with three branches:
 
 1. Vrk™ Station: Local workstation (desktop, notebook, tablet, etc.) to easily link and control a web server, i.e. Verber™
-2. Vubuntu™ Studio: Common apps and desktop settings for many _ubuntu GUIs, automatically installed via script.
+2. Vubuntu™ Studio Desktop: Common apps and desktop settings for many _ubuntu GUIs, automatically installed via script.
 3. Verber™ Server: Controllable cloud server (LAMP server with scripts for routine tasks)
 
 #### 1. Vrk™ Station
