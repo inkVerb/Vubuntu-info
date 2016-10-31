@@ -6,7 +6,7 @@
 
 Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
 
-Vubuntu Desktop and Vubuntu Studio Lite are installed via the "inkVerb/vrk" repo. This for information, related how-to scripts, and *the future...*
+Vubuntu Desktop and Vubuntu Studio Lite are installed via the "inkVerb/vrk" repo. See those repoes to install. This Git page is for information, related how-to scripts, and *the future...*
 
 inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
 
