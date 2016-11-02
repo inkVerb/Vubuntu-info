@@ -8,7 +8,7 @@ Vubuntu is NOT: [desktop environment] + Ubuntu ...which makes it special.
 
 Vubuntu (a recipe of Desktop settings & Studio Lite apps) is installed via the "inkVerb/vrk" repo, not this repo. This Git page is for information, related how-to scripts, and *the future...*
 
-inkVerb and Canonical are NOT associated, but Canonical is awesome anyway.
+inkVerb and Canonical are NOT associated, but Canonical is awesome anyway. Ubuntu is a registered trademark of Canonical Inc.
 
 ### About Vubuntu™
 Vubuntu™ is an Ubuntu extension project with three branches:
