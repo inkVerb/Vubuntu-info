@@ -48,9 +48,10 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 - Vrk™ is used to install the Vubuntu Desktop.
 
 ##### .vnk/.vink file type (beta)
-- The .vink file extension is an empty file that you can train your operating systems to open with a simple text editor or Dropbox can easily export to a text editor.
+- The .vink file extension is an empty file that you can train your operating systems to open with a simple text editor.
 - Generally, .vnk is created and used locally while .vink is used on a Verber™ server or another web app. But they can be used interchageably much like .htm and .html.
-- A .vnk file can be read as an html file with the <!DOCTYPE html> declaration as a solution for rich text. 
+- A .vnk file can be read as an html file with the <!DOCTYPE html> declaration as a solution for rich text.
+- A .vnk file can also start with <!DOCTYPE vink> so you can use it for whatever text with whatever text editor you want.
 - .vink is part of a roadmap for a "post / email" file that can be recognized as either html, simple text, or markdown. A .vink-powered CMS may store posts and/or emails and/or notes as .vink files on the server rather than as database entries.
 - Planned: .vink files to recognize a word followed by ampersand, ie: word& , as an "anchor" and a word followed by hash, ie: word# , as a link to it. Double and tripple ampersand and hashes should render as superscript and subscript, respectively. And a single, double, or tripple may be trailed by an i, b, u, or any combo thereof for italics, bold, or underlined styling of links and anchors. Links and anchors can be given a longer name via: [Longer Name of Link]link&. This promotes non-conflicting serchability via a mod to markdown's style. Trailing hashes and ampersands are not known to be used elsewhere.
 - Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
