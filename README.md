@@ -37,7 +37,9 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 `git clone https://github.com/inkVerb/vrk.git`
 
 `cd vrk/inst`
-
+ 
+`chmod +x *`
+ 
 `sudo ./setupvrk`
 
 ##### Vrk™ features:
@@ -57,16 +59,16 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
 - Planned: "!" to double for a subdomain "dot" and an email address "@", depending on applied usage. This is for your-name!verb.ink customers.
 
 #### 2. Vubuntu™ Desktop
-It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu is your V-6, under the hood, getting the engine ship-shape no matter which desktop environment you want... GNOME, Unity, Xfce, KDE, Mint...
+It was inspired by demand for "Kubuntu Studio", but why limit it to KDE? Vubuntu is your V-6, under the hood, getting the engine ship-shape no matter which desktop environment you want... GNOME, Unity, Xfce, KDE, MATE, Mint-Cinnamon...
 
 ##### How to install:
 
 1. Install Vrk (above)
 2. Ctrl + Alt + T
 
-`cd .vrk/surf`
+`cd ~/.vrk/boards`
 
-`sudo ./installvubuntu`
+`sudo ./install-vubuntu`
 
 ##### What "is" Vubuntu™ Desktop?
 *Vubuntu Desktop* is included with Vrk™. It is not an "environment"; it's a set of install scripts that does what most users might do anyway for the first two or three hours after installing Ubuntu, but it's all automated.
@@ -124,6 +126,8 @@ Note: make-verber-preserver, make-verber, and setupverb have instructions and ex
 `git clone https://github.com/inkVerb/verber.git`
 
 `cd verb/inst`
+
+`chmod +x *`
 
 `./make-verber-preserver`
 
