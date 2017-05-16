@@ -1,19 +1,25 @@
 # This installs gcin on GNOME as the Mandarin bopomofo input favored by Taiwanese
-sudo apt-get install gcin
+sudo apt install -y gcin
+## password
 im-config
-## Yes, yes, gcin, yes
+## OK, yes, gcin, OK
 cat ~/.xinputrc
 echo 'run_im gcin' > ~/.xinputrc
-## sudo reboot
+reboot
+## Your computer will instantly reboot, so be ready!
 ps aux | grep ibus
 ps aux | grep gcin
-sudo apt-get purge ibus
-## sudo reboot
+sudo apt purge ibus
+## password, y
+reboot
+## Your computer will instantly reboot, so be ready!
+# Now, you should have the gcin input method.
+# Note: Some of the labels don't mean what they appear!
 
 # Problems??  Bopomofo, no Chinese??
 # Install language packs:
-sudo apt-get install fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
-
+sudo apt install -y fcitx fcitx-ui-qimpanel libreoffice-l10n-en-za fcitx-table-cangjie language-pack-zh-hant fonts-arphic-uming libreoffice-help-zh-tw libreoffice-l10n-zh-tw thunderbird-locale-en-gb fcitx-chewing fcitx-pinyin mythes-en-au fonts-arphic-ukai thunderbird-locale-zh-hant libreoffice-help-en-gb thunderbird-locale-zh-tw libreoffice-l10n-en-gb language-pack-gnome-zh-hant firefox-locale-zh-hant hunspell-en-ca 
+## password
 
 ### Sources
 http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=105236&forum=4&post_id=352412
