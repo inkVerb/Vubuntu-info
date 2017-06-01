@@ -1,8 +1,9 @@
 # This installs gcin on GNOME as the Mandarin bopomofo input favored by Taiwanese
+## Ctrl + Alt + T (Open the Terminal)
 sudo apt install -y gcin
 ## password
 im-config
-## OK, yes, gcin, OK
+## OK, yes, gcin, OK, OK
 cat ~/.xinputrc
 echo 'run_im gcin' > ~/.xinputrc
 reboot
