@@ -15,6 +15,10 @@ grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 # Make a directory and all subdirectories one thru six and don't echo errors if they already exist
 mkdir -p one/two/three/four/five/six
 
+# Grep a file to answer true for "foo" in if argument
+if grep -Fq "foo" /path/to/file; then
+echo "is true"; fi
+
 # Make a symlink, update it, keep quiet if there is a problem
 ln -sfn /absolute/path/to/origin /absolute/path/to/link
 
