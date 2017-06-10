@@ -1,0 +1,23 @@
+# This is a set of semi-complex commands that might prove useful
+
+# Find 'foo' recursively
+grep foo * -R
+
+# Find complex string with spaces, etc
+grep 'complex string' * -R
+
+## OR
+grep "complex string" * -R
+
+# Find 'foo' replace with 'bar' recursively
+grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
+
+# Make a directory and all subdirectories one thru six and don't echo errors if they already exist
+mkdir -p one/two/three/four/five/six
+
+# Make a symlink, update it, keep quiet if there is a problem
+ln -sfn /absolute/path/to/origin /absolute/path/to/link
+
+## Set the original filename in the new location
+ln -sfn /absolute/path/to/original /absolute/path/to/linkfolder/
+### ...will result in the link: /absolute/path/to/linkfolder/original
