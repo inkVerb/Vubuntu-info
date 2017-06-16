@@ -12,6 +12,12 @@ https://github.com/inkVerb/YourRepo.git
 ### SSH:
 git@github.com:inkVerb/YourRepo.git
 
+## Clone to local machine
+### HTTPS:
+git clone https://github.com/inkVerb/YourRepo.git
+### SSH:
+git clone git@github.com:inkVerb/YourRepo.git
+
 ## Add existing repo (With README.md all setup)
 ### Create the repo "inkVerb/YourRepo" on GitHub (DO NOT initiate with README.md !!!)
 ### Initiate it from your local computer
