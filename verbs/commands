@@ -25,3 +25,8 @@ ln -sfn /absolute/path/to/origin /absolute/path/to/link
 ## Set the original filename in the new location
 ln -sfn /absolute/path/to/original /absolute/path/to/linkfolder/
 ### ...will result in the link: /absolute/path/to/linkfolder/original
+
+# Grep to see if something is in a file
+if grep -q WhatYouWantToFind "/path/to/searched/file"; then
+echo "I found it!"
+fi
