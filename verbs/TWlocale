@@ -1,3 +1,0 @@
-# This fixes the locale for Taiwan
-sudo sed -i "s/lzh_TW/zh_TW/g" /etc/default/locale
-# Then log back in
