@@ -1,0 +1,7 @@
+### BIOS
+Fastbook: Disabled
+Launch CSM: Disabled
+Secure Boot: Disabled
+
+### Install
+EFI boot partition: 200 MB
