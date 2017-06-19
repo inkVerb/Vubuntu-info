@@ -1,3 +1,6 @@
+# Create a super user
+sudo passwd
+
 # This is a set of semi-complex commands that might prove useful
 
 # Find 'foo' recursively
