@@ -30,3 +30,7 @@ ln -sfn /absolute/path/to/original /absolute/path/to/linkfolder/
 if grep -q "WhatYouWantToFind" "/path/to/searched/file"; then
 echo "I found it!"
 fi
+
+# Remove broken symlinks
+cd /path/to/dir
+for x in * .[!.]* ..?*; do if [ -L "$x" ] && ! [ -e "$x" ]; then rm -- "$x"; fi; done
