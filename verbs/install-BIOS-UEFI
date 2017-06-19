@@ -4,4 +4,4 @@ Launch CSM: Disabled
 Secure Boot: Disabled
 
 ### Install
-EFI boot partition: 200 MB
+EFI boot partition: 400 MB
