@@ -1,3 +1,5 @@
+# This includes many useful tools and settings after just installing Ubuntu
+
 # Open Terminal
 # Ctrl + Alt + T
 
@@ -5,8 +7,8 @@
 sudo passwd
 
 # Basic updates
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 
 # Canonical repo - the for Skype, adobe-flashplugin, and Microsoft fonts
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
