@@ -5,6 +5,7 @@ Secure Boot: Disabled
 
 ### Install
 EFI boot partition: 400 MB
+(FAT32, boot flag)
 
 ### OS Selection
 Other OS / Windows 10: Other OS
