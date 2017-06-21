@@ -14,19 +14,21 @@
 
 sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
 ## Run fcitx-qimpanel-configtool from the GNOME dashboard menu, then exit (creating configs)
+## Ctrl + Alt + T (Open the Terminal)
 im-config
-## Yes, yes, fcitx, yes
+## OK, yes, fcitx, OK, OK
 cat ~/.xinputrc
 echo 'run_im fcitx' > ~/.xinputrc
-## sudo reboot
+reboot
 ps aux | grep ibus
 ps aux | grep fcitx
 sudo apt-get purge ibus
-## sudo reboot
+## password, y
+reboot
 
 ## If gcin is installed
 ps aux | grep gcin
 sudo apt-get purge gcin
-## sudo reboot
+reboot
 
 
