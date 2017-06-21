@@ -47,6 +47,16 @@ do
  fi
 done
 
+# Do something for each file in a directory
+cd /path/to/dir
+for wutdir in ./*/
+do
+do
+ if [ -d "$wutdir" ]; the
+  echo "I found $wutdir"
+ fi
+done
+
 # Remove periods from a string
 STRING=this.is.my.string
 DOTLESS_STRING=$(echo $STRING | sed -e 's/\.//g')
