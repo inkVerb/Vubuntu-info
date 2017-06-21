@@ -46,3 +46,30 @@ do
   echo "I found $wut"
  fi
 done
+
+# Remove periods from a string
+STRING=this.is.my.string
+DOTLESS_STRING=$(echo $STRING | sed -e 's/\.//g')
+echo "$DOTLESS_STRING"
+
+# Generate a random character string for a varible
+## THIS REQUIRES: #!/bin/sh
+## THIS WILL FAIL: #!/bin/bash
+
+## Random AZaz09, 20 characters long, 1 set
+RANDOMCHAR=$(pwgen 20)
+echo "$RANDOMCHAR"
+
+## Very random AZaz09, 24 characters long, 1 set
+RANDOMCHAR=$(pwgen -s 24)
+echo "$RANDOMCHAR"
+
+## Very random AZaz, 30 characters long, 2 sets
+RANDOMCHAR=$(pwgen -s -1 30 2)
+echo "$RANDOMCHAR"
+
+# Check if one number is greater than another using "bc"
+## This requires bc installed: apt install bc
+if [ $(echo "${GREATER_NUMBER}>${LESSER_NUMBER}"|bc) = 1 ]; then
+echo "Yep, it's greater."
+fi
