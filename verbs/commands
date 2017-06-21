@@ -37,3 +37,12 @@ fi
 # Remove broken symlinks
 cd /path/to/dir
 for x in * .[!.]* ..?*; do if [ -L "$x" ] && ! [ -e "$x" ]; then rm -- "$x"; fi; done
+
+# Do something for each file in a directory
+cd /path/to/dir
+for wut in * 
+do
+ if [ -f "$wut" ]; the
+  echo "I found $wut"
+ fi
+done
