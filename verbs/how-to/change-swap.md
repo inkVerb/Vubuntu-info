@@ -14,11 +14,11 @@ Linux must know the UUID of swap, which changes when you remake a partition. If 
 `gksu gedit /etc/fstab`
 
 Note:
-- `gksu` is like `sudo`, but for GUI.
-- `gedit` is the editor.
+- `gksu` is like `sudo`, but for GUI. (not on KDE or Budgie, must use `sudo` instead)
+- `gedit` is the editor. (Unity, GNOME, and Budgie)
 - `/etc/fstab` is the settings file.
 
-*If you don't have* `gedit`*, you can use* `mousepad` (Xfce) *or* `kate` (KDE) *or* `pluma` (MATE/Cinnamon) *or whatever else instead. Nothing is stopping you from using* `vim` *or* `nano` *in the terminal either.*
+*If you don't have* `gedit`*, you can use* `mousepad` (Xfce) *or* `kate` (KDE) *or* `pluma` (MATE) `xed` (Cinnamon) *or whatever else instead. Nothing is stopping you from using* `vim` *or* `nano` *in the terminal either.*
 
 Now, look at the `/etc/fstab` file that opened in the GUI. It has the swap UUID two times, the first was swap at install, usually "ext4" and not "swap". Later is the actual swap. Change the actual one.
 
