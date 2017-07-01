@@ -8,7 +8,7 @@
 - https://xubuntu.org
 - https://xubuntu.org/getxubuntu
 
-### 16.04.02
+### 16.04.02 LTS
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.2/release/
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-amd64.iso
@@ -33,7 +33,7 @@
 - https://ubuntustudio.org
 - https://ubuntustudio.org/download
 
-### 16.04.02
+### 16.04.02 LTS
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.2/release/
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.2/release/ubuntustudio-16.04.2-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.2/release/ubuntustudio-16.04.2-dvd-amd64.iso
@@ -48,7 +48,7 @@
 - https://ubuntugnome.org
 - https://ubuntugnome.org/download
 
-### 16.04.02
+### 16.04.02 LTS
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.2/release/
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.2/release/ubuntu-gnome-16.04.2-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.2/release/ubuntu-gnome-16.04.2-desktop-amd64.iso
@@ -63,7 +63,7 @@
 - https://ubuntu-mate.org
 - https://ubuntu-mate.org/download
 
-### 16.04.02
+### 16.04.02 LTS
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-amd64.iso
@@ -78,7 +78,7 @@
 - http://www.kubuntu.org
 - http://www.kubuntu.org/getkubuntu
 
-### 16.04.02
+### 16.04.02 LTS
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.2/release/
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.2/release/kubuntu-16.04.2-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.2/release/kubuntu-16.04.2-desktop-amd64.iso
