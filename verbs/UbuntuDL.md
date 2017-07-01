@@ -3,6 +3,9 @@
 - https://www.ubuntu.com/download/ubuntu-flavours
 - http://cdimage.ubuntu.com
 
+- http://distrowatch.com/
+
+
 ## Xubuntu
 *Simple, reliable. Good support from Vrk! XD*
 - https://xubuntu.org
@@ -94,3 +97,8 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/
 - http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/kubuntu-17.04-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/kubuntu-17.04-desktop-amd64.iso
+
+## Manjaro
+*Based on Arch, slow channel stable updates, Vrk does NOT support but plans to in the future! XD*
+- https://manjaro.org
+- https://manjaro.org/get-manjaro
