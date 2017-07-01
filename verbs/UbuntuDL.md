@@ -99,6 +99,6 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/kubuntu-17.04-desktop-amd64.iso
 
 ## Manjaro
-*Based on Arch, slow channel stable updates, Vrk does NOT support but plans to in the future! XD*
+*Based on Arch, slow channel stable updates, Vrk does NOT support now, but plans to in the future! XD*
 - https://manjaro.org
 - https://manjaro.org/get-manjaro
