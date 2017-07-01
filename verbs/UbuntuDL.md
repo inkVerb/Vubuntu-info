@@ -43,6 +43,11 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.04/release/ubuntustudio-17.04-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.04/release/ubuntustudio-17.04-dvd-amd64.iso
 
+## Linux Mint
+*Built on Ubuntu. Cinnamon & Xfce have good support from Vrk! XD (MATE has legacy support, KDE is NOT supported by Vrk!)*
+- https://www.linuxmint.com/
+- https://www.linuxmint.com/download.php
+
 ## Ubuntu GNOME
 *Default Ubuntu desktop, good support, not favored.*
 - https://ubuntugnome.org
