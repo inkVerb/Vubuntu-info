@@ -40,7 +40,7 @@ Clone the vrk repo to your home folder and run vrk/inst/setupvrk, like this:
  
 `chmod +x *`
  
-`sudo ./setupvrk`
+`sudo ./govrk`
 
 ##### Vrk™ features:
 - Automatically links home folders "Documents", "Templates", and your own custom folder to a cloud folder of your choice: Dropbox, ownCloud, Pydio, or another cloud service that uses a simple directory. Vrk™ carefully moves contents to the cloud, merges any content, then replace these user home folders with links. This way, your home folders can be synced to your choice cloud across devices.
