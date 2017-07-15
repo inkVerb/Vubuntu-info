@@ -4,6 +4,10 @@
 - http://cdimage.ubuntu.com
 
 - http://distrowatch.com/
+### 16.04.02 LTS
+- http://releases.ubuntu.com/16.04/
+- http://releases.ubuntu.com/16.04/ubuntu-16.04.2-desktop-i386.iso
+- http://releases.ubuntu.com/16.04/ubuntu-16.04.2-desktop-amd64.iso
 
 
 ## Xubuntu
