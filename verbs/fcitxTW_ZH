@@ -1,0 +1,11 @@
+# This installs fcitx on GNOME (Orance-Gray, no conflict with Compose Key, Ubuntu Unity native Taiwan Chinese input)
+
+sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
+## Ctrl + Alt + T (Open the Terminal)
+fcitx-qimpanel-configtool
+## Set to "Vertical", then "Apply", then exit
+im-config
+## OK, yes, fcitx, OK, OK
+cat ~/.xinputrc
+echo 'run_im fcitx' > ~/.xinputrc
+reboot
