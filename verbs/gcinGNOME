@@ -1,4 +1,7 @@
-# This installs gcin on GNOME as the Mandarin bopomofo input favored by Taiwanese
+# This installs gcin on GNOME for Mandarin input
+## Problem: It conflicts with the Compose Key
+## Update: This is not necessary since fcitx works well.
+
 ## Ctrl + Alt + T (Open the Terminal)
 sudo apt install -y gcin
 ## password
