@@ -4,8 +4,8 @@
 
 # If using Vrk, do not change your home folders to Chinese names since it is more difficult to type in the terminal
 
-sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
 ## Ctrl + Alt + T (Open the Terminal)
+sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
 fcitx-qimpanel-configtool
 ## Set to "Vertical", then "Apply", then exit
 im-config
