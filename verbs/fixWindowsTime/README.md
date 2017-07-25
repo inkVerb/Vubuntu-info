@@ -12,7 +12,7 @@ http://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 
 https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts
 
-It is generally advisable to fix the problem in Windows. Fixing it in Ubuntu is easy, but daylight saving and time updates will break, making you the Ubuntu nanny while Windows nannies herself. This may not work in "older" versions of Windows. Read the above articles for the scoop. Here is the Verber's Digest version:
+It is generally advisable to fix the problem in Windows. Fixing it in Ubuntu is easy, but daylight saving and time updates will break, making you the Ubuntu nanny while Windows nannies herself. This may not work in "older" versions of Windows. Read the above articles for the scoop. Here is inkVerb's Digest version:
 
 # Fix the problem in Windows:
 
@@ -22,7 +22,7 @@ Create "WindowsTimeFixUTC.reg" with this in it:
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=dword:00000001`
 
-(or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
+(or download here: https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/fixWindowsTime/WindowsTimeFixUTC.reg)
 
 1. Double click on WindowsTimeFixUTC.reg in Windows
 
@@ -38,7 +38,7 @@ Create "WindowsTimeUnFixUTC.reg" with this in it:
 `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]`
 `     "RealTimeIsUniversal"=-`
 
-(or download here: https://github.com/inkVerb/Vubuntu/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
+(or download here: https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/fixWindowsTime/WindowsTimeUnFixUTC.reg)
 
 1. Double click on WindowsTimeUnFixUTC.reg in Windows
 
