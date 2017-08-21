@@ -1,15 +1,25 @@
 # This installs fcitx on GNOME (Orance-Gray, no conflict with Compose Key, Ubuntu Unity native Taiwan Chinese input)
 
-# You must add Chinese Taiwan/Traditional in Settings > Region & Language, and set it for your User Account Settings
+# You must FIRST add Chinese Taiwan/Traditional in Settings > Region & Language, and set it for your User Account Settings
 
 # If using Vrk, do not change your home folders to Chinese names since it is more difficult to type in the terminal
 
 ## Ctrl + Alt + T (Open the Terminal)
+
 sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie
+## Some may already be installed, that's okay.
+
 fcitx-qimpanel-configtool
 ## Set to "Vertical", then "Apply", then exit
+
 im-config
 ## OK, yes, fcitx, OK, OK
+
+## Check if installed correctly
 cat ~/.xinputrc
+## It should include: run_im fcitx
+## If not...
 echo 'run_im fcitx' > ~/.xinputrc
+
+## Then, reboot
 reboot
