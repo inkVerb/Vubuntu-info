@@ -23,3 +23,13 @@ echo 'run_im fcitx' > ~/.xinputrc
 
 ## Then, reboot
 reboot
+
+## Add the language
+- In Apps, search and run: fcitx Configuration
+- + to add a language
+- Deselect "Only Show Current Language"
+- For Taowan bopomofo select "Chewing", OK
+
+## All done! Have a cookie...
+
+###
