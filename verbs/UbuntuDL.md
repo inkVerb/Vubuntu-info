@@ -85,13 +85,6 @@
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-i386.iso.torrent
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-amd64.iso.torrent
 
-### 17.10
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-amd64.iso
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-i386.iso.torrent
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-amd64.iso.torrent
-
 ## MATE
 *GNOME 2 fork, minimal legacy support by Vrk.*
 - https://ubuntu-mate.org
