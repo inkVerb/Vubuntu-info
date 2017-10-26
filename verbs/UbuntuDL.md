@@ -9,6 +9,9 @@
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-i386.iso
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-amd64.iso
 
+### 17.10
+- http://releases.ubuntu.com/17.10/
+- http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso
 
 ## Xubuntu
 *Simple, reliable. Good support from Vrk! XD*
@@ -20,20 +23,20 @@
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-amd64.iso
 
-### 17.04
-- http://cdimage.ubuntu.com/xubuntu/releases/17.04/release/
-- http://cdimage.ubuntu.com/xubuntu/releases/17.04/release/xubuntu-17.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/xubuntu/releases/17.04/release/xubuntu-17.04-desktop-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/
+- http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-i386.iso
+- http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-amd64.iso
 
 ## Budgie
 *Beautiful, reliable. GNOME fork, good support! XD*
 - https://ubuntubudgie.org
 - https://ubuntubudgie.org/downloads
 
-### 17.04
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.04/release/
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.04/release/ubuntu-budgie-17.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.04/release/ubuntu-budgie-17.04-desktop-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-i386.iso
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-amd64.iso
 
 ## Ubuntu Studio
 *Xfce based, many apps aready included, good support! XD*
@@ -45,10 +48,10 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-amd64.iso
 
-### 17.04
-- http://cdimage.ubuntu.com/ubuntustudio/releases/17.04/release/
-- http://cdimage.ubuntu.com/ubuntustudio/releases/17.04/release/ubuntustudio-17.04-dvd-i386.iso
-- http://cdimage.ubuntu.com/ubuntustudio/releases/17.04/release/ubuntustudio-17.04-dvd-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/
+- http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-i386.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-amd64.iso
 
 ## Linux Mint
 *Built on Ubuntu. Cinnamon & Xfce have good support from Vrk! XD*
@@ -67,10 +70,10 @@
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-amd64.iso
 
-### 17.04
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.04/release/
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.04/release/ubuntu-gnome-17.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.04/release/ubuntu-gnome-17.04-desktop-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-i386.iso
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-amd64.iso
 
 ## MATE
 *GNOME 2 fork, minimal legacy support by Vrk.*
@@ -82,10 +85,10 @@
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-amd64.iso
 
-### 17.04
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso
 
 ## Kubuntu
 *NOT supported by Vrk!!*
@@ -97,10 +100,10 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-amd64.iso
 
-### 17.04
-- http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/
-- http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/kubuntu-17.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/kubuntu/releases/17.04/release/kubuntu-17.04-desktop-amd64.iso
+### 17.10
+- http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/
+- http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-i386.iso
+- http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-amd64.iso
 
 ## Manjaro
 *Based on Arch, slow channel stable updates, Vrk does NOT support now, but plans to in the future! XD*
