@@ -8,6 +8,8 @@
 - http://releases.ubuntu.com/16.04/
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-i386.iso
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-amd64.iso
+- http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-i386.iso.torrent
+- http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-amd64.iso.torrent
 
 ### 17.10
 - http://releases.ubuntu.com/17.10/
@@ -22,11 +24,15 @@
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-amd64.iso
+- http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/xubuntu/releases/16.04.3/release/xubuntu-16.04.3-desktop-amd64.iso.torrent
 
 ### 17.10
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-amd64.iso
+- http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/xubuntu/releases/17.10/release/xubuntu-17.10-desktop-amd64.iso.torrent
 
 ## Budgie
 *Beautiful, reliable. GNOME fork, good support! XD*
@@ -37,6 +43,8 @@
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10/release/ubuntu-budgie-17.10-desktop-amd64.iso.torrent
 
 ## Ubuntu Studio
 *Xfce based, many apps aready included, good support! XD*
@@ -47,11 +55,15 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-amd64.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.3/release/ubuntustudio-16.04.3-dvd-amd64.iso.torrent
 
 ### 17.10
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-amd64.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-amd64.iso.torrent
 
 ## Linux Mint
 *Built on Ubuntu. Cinnamon & Xfce have good support from Vrk! XD*
@@ -69,11 +81,15 @@
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.3/release/ubuntu-gnome-16.04.3-desktop-amd64.iso.torrent
 
 ### 17.10
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-gnome/releases/17.10/release/ubuntu-gnome-17.10-desktop-amd64.iso.torrent
 
 ## MATE
 *GNOME 2 fork, minimal legacy support by Vrk.*
@@ -84,11 +100,15 @@
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-amd64.iso.torrent
 
 ### 17.10
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent
 
 ## Kubuntu
 *NOT supported by Vrk!!*
@@ -99,11 +119,15 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-amd64.iso
+- http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/kubuntu/releases/16.04.3/release/kubuntu-16.04.3-desktop-amd64.iso.torrent
 
 ### 17.10
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-amd64.iso
+- http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/kubuntu/releases/17.10/release/kubuntu-17.10-desktop-amd64.iso.torrent
 
 ## Manjaro
 *Based on Arch, slow channel stable updates, Vrk does NOT support now, but plans to in the future! XD*
