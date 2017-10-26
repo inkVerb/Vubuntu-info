@@ -14,6 +14,7 @@
 ### 17.10
 - http://releases.ubuntu.com/17.10/
 - http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso
+- http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso.torrent
 
 ## Xubuntu
 *Simple, reliable. Good support from Vrk! XD*
