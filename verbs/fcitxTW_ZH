@@ -1,4 +1,4 @@
-# This installs fcitx on GNOME (Orance-Gray, no conflict with Compose Key, Ubuntu Unity native Taiwan Chinese input)
+# This installs fcitx on GNOME (Orange-Gray, no conflict with Compose Key, Ubuntu Unity native Taiwan Chinese input)
 
 # You must FIRST add Chinese Taiwan/Traditional in Settings > Region & Language, and set it for your User Account Settings
 
