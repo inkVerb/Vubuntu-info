@@ -1,8 +1,8 @@
 # Ubuntu
+
 - https://www.ubuntu.com
 - https://www.ubuntu.com/download/ubuntu-flavours
 - http://cdimage.ubuntu.com
-
 - http://distrowatch.com/
 
 ### 18.04 beta
