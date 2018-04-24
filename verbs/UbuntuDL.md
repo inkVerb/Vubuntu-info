@@ -14,7 +14,7 @@
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-i386.iso
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso
 
-### 17.10.1 LTS
+### 17.10.1
 - http://releases.ubuntu.com/17.10.1/
 - http://releases.ubuntu.com/17.10.1/ubuntu-17.10.1-desktop-amd64.iso
 
