@@ -5,22 +5,22 @@
 - http://cdimage.ubuntu.com
 - http://distrowatch.com/
 
-### 18.04 beta
-- http://cdimage.ubuntu.com/daily-live/current/HEADER.html
-- http://cdimage.ubuntu.com/daily-live/current/bionic-desktop-amd64.iso
-
 ### 16.04.4 LTS
 - http://releases.ubuntu.com/16.04/
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-i386.iso
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso
 
-### 17.10.1
+### Current: 17.10.1
 - http://releases.ubuntu.com/17.10.1/
 - http://releases.ubuntu.com/17.10.1/ubuntu-17.10.1-desktop-amd64.iso
 
-## Server
+### 16.04.4 Server
 - http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/
 - http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/ubuntu-16.04.4-server-arm64.iso
+
+### beta: 18.04
+- http://cdimage.ubuntu.com/daily-live/current/HEADER.html
+- http://cdimage.ubuntu.com/daily-live/current/bionic-desktop-amd64.iso
 
 ## Xubuntu
 *Simple, reliable. Good support from Vrk! XD*
@@ -32,7 +32,7 @@
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/xubuntu-16.04.4-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/xubuntu-16.04.4-desktop-amd64.iso
 
-### 17.10.1
+### Current: 17.10.1
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10.1/release/
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10.1/release/xubuntu-17.10.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/17.10.1/release/xubuntu-17.10.1-desktop-amd64.iso
@@ -42,7 +42,7 @@
 - https://ubuntubudgie.org
 - https://ubuntubudgie.org/downloads
 
-### 17.10.1
+### Current: 17.10.1
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10.1/release/
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10.1/release/ubuntu-budgie-17.10.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/17.10.1/release/ubuntu-budgie-17.10.1-desktop-amd64.iso
@@ -57,7 +57,7 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/ubuntustudio-16.04.4-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/ubuntustudio-16.04.4-dvd-amd64.iso
 
-### 17.10.1
+### Current: 17.10.1
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/17.10/release/ubuntustudio-17.10-dvd-amd64.iso
@@ -89,7 +89,7 @@
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-amd64.iso
 
-### 17.10.1
+### Current: 17.10.1
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10.1-desktop-amd64.iso
@@ -104,7 +104,7 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/kubuntu-16.04.4-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/kubuntu-16.04.4-desktop-amd64.iso
 
-### 17.10.1
+### Current: 17.10.1
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10.1/release/
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10.1/release/kubuntu-17.10.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/17.10.1/release/kubuntu-17.10.1-desktop-amd64.iso
