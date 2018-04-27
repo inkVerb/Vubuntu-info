@@ -5,13 +5,17 @@
 - http://distrowatch.com/
 
 ## Ubuntu Desktop
+- http://releases.ubuntu.com/
+- http://cdimage.ubuntu.com/ubuntu/releases/
 
 ### 18.04 LTS (Current)
 - http://releases.ubuntu.com/18.04/
+- http://cdimage.ubuntu.com/ubuntu/releases/18.04/release/
 - http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso
 
 ### 16.04.4 LTS
 - http://releases.ubuntu.com/16.04/
+- http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-i386.iso
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso
 
@@ -22,11 +26,9 @@
 ## Ubuntu Server
 
 ### 18.04 Server LTS (Current)
-- http://cdimage.ubuntu.com/ubuntu/releases/18.04/release/
-- http://cdimage.ubuntu.com/ubuntu/releases/18.04/release/ubuntu-16.04-server-arm64.iso
+- http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
 
 ### 16.04.4 Server LTS
-- http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/
 - http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/ubuntu-16.04.4-server-arm64.iso
 
 ## Xubuntu
