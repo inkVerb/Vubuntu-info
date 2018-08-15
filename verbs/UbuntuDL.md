@@ -9,8 +9,8 @@
 - http://cdimage.ubuntu.com/ubuntu/releases/
 
 ### 18.04 LTS (Current)
-- http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso
-- http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
+- http://releases.ubuntu.com/18.04/ubuntu-18.04.1-desktop-amd64.iso
+- http://releases.ubuntu.com/18.04/ubuntu-18.04.1-desktop-amd64.iso.torrent
 
 
 ### 16.04.4 LTS
@@ -26,8 +26,8 @@
 ## Ubuntu Server
 
 ### 18.04 Server LTS (Current)
-- http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
-- http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso.torrent
+- http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso
+- http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso.torrent
 
 ### 16.04.4 Server LTS
 - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-server-amd64.iso
@@ -40,10 +40,10 @@
 - http://cdimage.ubuntu.com/xubuntu/releases/
 
 ### 18.04 LTS (Current)
-- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-i386.iso.torrent
-- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso
-- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso.torrent
+- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-i386.iso
+- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-amd64.iso
+- http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-amd64.iso.torrent
 
 ### 16.04.4 LTS
 - http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/xubuntu-16.04.4-desktop-i386.iso
@@ -55,13 +55,13 @@
 *Beautiful, reliable. GNOME fork, good support! XD*
 - https://ubuntubudgie.org
 - https://ubuntubudgie.org/downloads
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/https://www.amazon.com/dp/1718124058
 
 ### 18.04 LTS (Current)
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04-desktop-i386.iso.torrent
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04-desktop-amd64.iso
-- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04-desktop-amd64.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-i386.iso
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-amd64.iso.torrent
 
 ## Ubuntu Studio
 *Xfce based, many apps aready included, good support! XD*
@@ -70,10 +70,10 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/
 
 ### 18.04 LTS (Current)
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-i386.iso
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-i386.iso.torrent
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-i386.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-amd64.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-amd64.iso.torrent
 
 ### 16.04.4 LTS
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/ubuntustudio-16.04.4-dvd-i386.iso
@@ -109,10 +109,10 @@
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/
 
 ### 18.04 LTS (Current)
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-i386.iso.torrent
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-amd64.iso
-- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-amd64.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso
+- http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso.torrent
 
 ### 16.04.4 LTS
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-i386.iso
@@ -127,10 +127,10 @@
 - http://cdimage.ubuntu.com/kubuntu/releases/
 
 ### 18.04 LTS (Current)
-- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-i386.iso
-- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-i386.iso.torrent
-- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-amd64.iso
-- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-amd64.iso.torrent
+- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-i386.iso
+- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-i386.iso.torrent
+- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-amd64.iso
+- http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-amd64.iso.torrent
 
 ### 16.04.4 LTS
 - http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/kubuntu-16.04.4-desktop-i386.iso
