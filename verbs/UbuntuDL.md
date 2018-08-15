@@ -8,7 +8,7 @@
 - http://releases.ubuntu.com/
 - http://cdimage.ubuntu.com/ubuntu/releases/
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://releases.ubuntu.com/18.04/ubuntu-18.04.1-desktop-amd64.iso
 - http://releases.ubuntu.com/18.04/ubuntu-18.04.1-desktop-amd64.iso.torrent
 
@@ -25,7 +25,7 @@
 
 ## Ubuntu Server
 
-### 18.04 Server LTS (Current)
+### 18.04.1 Server LTS (Current)
 - http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso
 - http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso.torrent
 
@@ -39,7 +39,7 @@
 - https://xubuntu.org/getxubuntu
 - http://cdimage.ubuntu.com/xubuntu/releases/
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-i386.iso.torrent
 - http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.1-desktop-amd64.iso
@@ -57,7 +57,7 @@
 - https://ubuntubudgie.org/downloads
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/https://www.amazon.com/dp/1718124058
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-i386.iso.torrent
 - http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.1-desktop-amd64.iso
@@ -69,7 +69,7 @@
 - https://ubuntustudio.org/download
 - http://cdimage.ubuntu.com/ubuntustudio/releases/
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-i386.iso
 - http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-i386.iso.torrent
 - http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.1-dvd-amd64.iso
@@ -94,7 +94,7 @@
 - https://ubuntugnome.org/download
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/
 
-### 18.04 is Ubuntu
+### 18.04.1 is Ubuntu
 
 ### 16.04.4 LTS
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.4/release/ubuntu-gnome-16.04.4-desktop-i386.iso
@@ -108,7 +108,7 @@
 - https://ubuntu-mate.org/download
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso.torrent
 - http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso
@@ -126,7 +126,7 @@
 - http://www.kubuntu.org/getkubuntu
 - http://cdimage.ubuntu.com/kubuntu/releases/
 
-### 18.04 LTS (Current)
+### 18.04.1 LTS (Current)
 - http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-i386.iso
 - http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-i386.iso.torrent
 - http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.1-desktop-amd64.iso
