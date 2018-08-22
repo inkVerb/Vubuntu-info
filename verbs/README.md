@@ -1,4 +1,4 @@
-## Learn Linux: [verb.pink](https://github.com/inkVerb/Pinker)
+## Learn Linux: [verb.vip](https://github.com/inkVerb/VIP)
 ## PC Linux Workstation: [Vrk](https://github.com/inkVerb/vrk)
 ___
 ### [GitHub Dark Theme](https://github.com/StylishThemes/GitHub-Dark)
