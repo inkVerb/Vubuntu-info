@@ -1,0 +1,5 @@
+sudo add-apt-repository ppa:xorg-edgers/ppa
+sudo apt install nvidia-current
+
+This is a great article on Nvidia drivers:
+https://stackoverflow.com/questions/32728341/error-installing-nvidia-driver-ubuntu-14-04
