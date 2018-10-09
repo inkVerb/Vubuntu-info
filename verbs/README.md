@@ -9,3 +9,4 @@ ___
 ## [Ubuntu Download Links](https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/UbuntuDL.md)
 ## [BIOS Settings](https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/install-BIOS-UEFI)
 ## [fcitx TW_ZH](https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/fcitxTW_ZH)
+## [Nvidia](https://github.com/inkVerb/Vubuntu-info/blob/master/verbs/nvidia)
