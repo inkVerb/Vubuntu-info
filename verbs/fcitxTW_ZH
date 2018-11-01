@@ -8,7 +8,7 @@
 
 ## Ctrl + Alt + T (Open the Terminal)
 
-sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie fcitx-config-gtk
+sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie3 fcitx-config-gtk
 ## Some may already be installed, that's okay.
 
 fcitx-qimpanel-configtool
