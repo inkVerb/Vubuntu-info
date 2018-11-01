@@ -14,6 +14,7 @@ sudo apt-get install fcitx fcitx-ui-qimpanel fcitx-chewing fcitx-table-cangjie f
 fcitx-qimpanel-configtool
 ## Set to "Vertical", then "Apply", then exit
 
+## Below is less preferable, better is: Settings > Region & Language > Manage Installed Languages > Keyboard input method
 im-config
 ## OK, yes, fcitx, OK, OK
 
@@ -27,7 +28,9 @@ echo 'run_im fcitx' > ~/.xinputrc
 reboot
 
 ## Add the language
-- In Apps, search and run: fcitx Configuration
+### Choose Either:
+1. In Apps, search and run: fcitx Configuration (less preferable?)
+2. fcitx icon > Configure
 - + to add a language
 - Deselect "Only Show Current Language"
 - For Taiwan bopomofo select "Chewing", OK
