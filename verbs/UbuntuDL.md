@@ -70,10 +70,10 @@
 - http://cdimage.ubuntu.com/ubuntustudio/releases/
 
 ### 18.04.2 LTS (Current)
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.2-dvd-i386.iso
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.2-dvd-i386.iso.torrent
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.2-dvd-amd64.iso
-- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04.2-dvd-amd64.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-i386.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-i386.iso.torrent
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
+- http://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso.torrent
 
 ### 16.04.5 LTS
 - http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.5/release/ubuntustudio-16.04.5-dvd-i386.iso
@@ -94,7 +94,7 @@
 - https://ubuntugnome.org/download
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/
 
-### 18.04.2 is Ubuntu
+### 18.04 is Ubuntu
 
 ### 16.04.5 LTS
 - http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.5/release/ubuntu-gnome-16.04.5-desktop-i386.iso
