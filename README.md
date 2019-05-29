@@ -123,7 +123,7 @@ Note: make-verber-preserver, make-verber, and setupverb have instructions and ex
 
 `cd /var/local`
 
-`git clone https://github.com/inkVerb/verber.git`
+`git clone https://github.com/inkVerb/verb.git`
 
 `cd verb/inst`
 
