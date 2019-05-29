@@ -1,9 +1,0 @@
-# This sets up a lot of useful stuff after installing Ubuntu with GNOME.
-## Everything here is completely redundant from Vrk, which also does way more.
-sudo passwd
-sudo apt-get update && apt-get -y upgrade
-sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-sudo apt-get update
-sudo apt-get -y install jackd2 msttcorefonts
-sudo apt-get -y install skype adobe-flashplugin zip p7zip-full gzip guake mousepad kate dolphin thunar thunar-archive-plugin phatch thunar-media-tags-plugin vlc clementine amarok docky thunderbird firefox chromium-browser djview-plugin unity-chromium-extension midori epiphany-browser calligraauthor scribus sigil flowblade stellarium nautilus-dropbox grabc git vim guake-indicator filezilla ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing linux-lowlatency ubuntustudio-video ubuntu-restricted-extras gnome-tweak-tool unity-tweak-tool ubuntustudio-wallpapers compizconfig-settings-manager
-gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/ButtonImages': <1>, 'Gtk/MenuImages': <1>}"
